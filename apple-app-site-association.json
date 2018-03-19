@@ -1,0 +1,9 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [{
+            "appID": "hr.apps.nailsjobs",
+            "paths": ["*"]
+        }]
+    }
+}
