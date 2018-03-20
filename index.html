@@ -26,12 +26,15 @@
         var url = document.location.href;
         var stuff = url.split('/?id=');
         var id = stuff[stuff.length - 1];
-        alert(id); // 234234234
+        // 234234234
         window.onload = function() {
 
 
             /* Deep link URL for existing users with app already installed on their device */
+            var link = 'applinks://boytpcm123.github.io/?id=' + id;
+            alert(link);
             window.location = 'applinks://boytpcm123.github.io/?id=' + id;
+
             /* Download URL (TUNE link) for new users to download the app */
             setTimeout("window.location = 'https://itunes.apple.com/app/id1330857258';", 1000);
         }
