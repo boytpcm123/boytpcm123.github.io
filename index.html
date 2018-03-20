@@ -1,8 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 
 <head>
-    <title>Excharm</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0, maximum-scale=1.0" />
     <meta property="al:ios:app_store_id" content="1330857258" />
     <meta property="al:ios:app_name" content="Excharm" />
     <meta property="al:ios:url" content="applinks://promotion" />
@@ -11,32 +12,49 @@
     <script>
         document.writeln('<meta name="apple-itunes-app" content="app-id=1330857258, app-argument=' + document.location.href + '">');
     </script>
+    <title>Excharm</title>
     <style>
-        body {
-            padding-top: 5%;
-            color: #000;
-            font-size: 1em;
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: left;
-            margin: 50px;
-        }
-        
-        h1 {
-            font-weight: normal;
-            font-size: 1.8em;
-        }
-        
-        a {
-            color: #000;
-            font-weight: bold;
-            text-decoration: none;
+        @media screen and (max-device-width:480px) {
+            body {
+                -webkit-text-size-adjust: none
+            }
         }
     </style>
-    <title>Excharm</title>
 
-    <body>
-        A great social app connect you to the nails industry network Nails supplies shop with variety of product just one tap away Find passionate nails technicians Buy nails supplies for you and your salon Share your experiences
-        <a href="/apple-app-site-association">Click here</a>
-    </body>
+    <!-- implement javascript on web page that first first tries to open the deep link
+        1. if user has app installed, then they would be redirected to open the app to specified screen
+        2. if user doesn't have app installed, then their browser wouldn't recognize the URL scheme
+        and app wouldn't open since it's not installed. In 1 second (1000 milliseconds) user is redirected
+        to download app from app store.
+     -->
+    <script>
+        var id = url.substring(url.lastIndexOf('/?id=') + 1);
+        window.onload = function() {
+
+            alert(id); // 234234234
+            /* Deep link URL for existing users with app already installed on their device */
+            window.location = 'applinks://boytpcm123.github.io/?id=' + id;
+            /* Download URL (TUNE link) for new users to download the app */
+            setTimeout("window.location = 'https://itunes.apple.com/app/id1330857258';", 1000);
+        }
+
+
+        document.getElementById('main_form').action = 'applinks://boytpcm123.github.io/?id=' + id;
+    </script>
+</head>
+
+<body>
+
+    <!-- button to Download App for new app users -->
+    <form action="https://itunes.apple.com/app/id1330857258" target="_blank">
+        <input type="submit" value="Download" />
+    </form>
+
+    <!-- button to Open App to specific screen for existing app users -->
+    <form id="main_form" target="_blank">
+        <input type="submit" value="Open App" />
+    </form>
+
+</body>
 
 </html>
