@@ -21,17 +21,15 @@
         }
     </style>
 
-    <!-- implement javascript on web page that first first tries to open the deep link
-        1. if user has app installed, then they would be redirected to open the app to specified screen
-        2. if user doesn't have app installed, then their browser wouldn't recognize the URL scheme
-        and app wouldn't open since it's not installed. In 1 second (1000 milliseconds) user is redirected
-        to download app from app store.
-     -->
+
     <script>
-        var id = url.substring(url.lastIndexOf('/?id=') + 1);
+        var url = document.location.href;
+        var stuff = url.split('/?id=');
+        var id = stuff[stuff.length - 1];
+        alert(id); // 234234234
         window.onload = function() {
 
-            alert(id); // 234234234
+
             /* Deep link URL for existing users with app already installed on their device */
             window.location = 'applinks://boytpcm123.github.io/?id=' + id;
             /* Download URL (TUNE link) for new users to download the app */
