@@ -9,21 +9,19 @@
     <meta property="og:type" content="Application" />
     <meta property="og:description" content="A great social app connect you to the nails industry network 
     Nails supplies shop with variety of product just one tap away" />
-    <script>
-        document.writeln('<meta property="og:url" content="' + document.location.href + '">');
-    </script>
     <meta property="og:image" content="/logo.png" />
     <link rel="apple-touch-icon" href="/logo.png">
     <meta property="al:ios:app_store_id" content="1330857258" />
     <meta property="al:ios:app_name" content="Excharm" />
     <meta property="al:web:url" content="https://itunes.apple.com/app/id1330857258" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <meta name="twitter:app:name:iphone" content="Excharm">
+    <meta name="twitter:app:id:iphone" content="1330857258">
     <script>
+        document.writeln('<meta property="og:url" content="' + document.location.href + '">');
         document.writeln('<meta name="apple-itunes-app" content="app-id=1330857258, app-argument=' + document.location.href + '">');
-    </script>
-    <script>
         document.writeln('<meta property="al:ios:url" content="' + document.location.href + '">');
+        document.writeln('<meta name="twitter:app:url:iphone" content="' + document.location.href + '">');
     </script>
     <style>
         @media screen and (max-device-width:480px) {
@@ -41,9 +39,9 @@
         // 234234234
         window.onload = function() {
             /* Deep link URL for existing users with app already installed on their device */
-            var link = 'applinks://boytpcm123.github.io/?id=' + id;
+            var link = 'applinks:boytpcm123.github.io/?id=' + id;
             //alert(link);
-            window.location = 'applinks://boytpcm123.github.io/?id=' + id;
+            window.location = link;
 
             /* Download URL (TUNE link) for new users to download the app */
             setTimeout("window.location = 'https://itunes.apple.com/app/id1330857258';", 3000);
