@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1.0, maximum-scale=1.0" />
     <meta property="al:ios:app_store_id" content="1330857258" />
     <meta property="al:ios:app_name" content="Excharm" />
-    <meta property="al:ios:url" content="applinks://promotion" />
     <meta property="al:web:url" content="https://itunes.apple.com/app/id1330857258" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
     <script>
         document.writeln('<meta name="apple-itunes-app" content="app-id=1330857258, app-argument=' + document.location.href + '">');
     </script>
@@ -28,8 +28,6 @@
         var id = stuff[stuff.length - 1];
         // 234234234
         window.onload = function() {
-
-
             /* Deep link URL for existing users with app already installed on their device */
             var link = 'applinks://boytpcm123.github.io/?id=' + id;
             //alert(link);
@@ -38,6 +36,8 @@
             /* Download URL (TUNE link) for new users to download the app */
             setTimeout("window.location = 'https://itunes.apple.com/app/id1330857258';", 3000);
         }
+        var linkScheme = '<meta property="al:ios:url" content="applinks://boytpcm123.github.io/?id=' + id + '">';
+        document.writeln(linkScheme);
     </script>
 </head>
 
