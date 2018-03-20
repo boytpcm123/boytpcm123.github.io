@@ -1,0 +1,9 @@
+#redirect to deeplink
+<IfModule mod_rewrite.c>
+
+#if there is a request to example.com/v/any-sub-path, redirect them to example.com/deeplink.php file. This rule is for both IOS and Android
+RewriteRule ^(v)/.* /deeplink.php [L]
+
+#if there is a request to example.com/ios/any-sub-path, redirect them to app installation page. That means your app is not installed on IOS device. This rule is for IOS devices only
+RewriteRule ^(ios)/.* http://itunes.apple.com/install-of-your-app [L] 
+</IfModule>  
