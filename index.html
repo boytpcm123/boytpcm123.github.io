@@ -5,22 +5,34 @@
     <title>Excharm</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width,minimum-scale=1.0, maximum-scale=1.0" />
-    <meta property="og:title" content="Excharm" />
-    <meta property="og:type" content="Application" />
+
+    <meta property="og:title" content="Excharm">
+    <meta property="og:type" content="website">
+
     <meta property="og:description" content="A great social app connect you to the nails industry network 
-    Nails supplies shop with variety of product just one tap away" />
-    <meta property="og:image" content="/logo.png" />
-    <link rel="apple-touch-icon" href="/logo.png">
-    <meta property="al:ios:app_store_id" content="1330857258" />
-    <meta property="al:ios:app_name" content="Excharm" />
-    <meta property="al:web:url" content="https://itunes.apple.com/app/id1330857258" />
+    Nails supplies shop with variety of product just one tap away">
+    <meta property="og:image" content="/excharm/logo.png">
+    <link rel="apple-touch-icon" href="/excharm/logo.png">
+
+    <meta property="al:ios:url" content="applinks://boytpcm123.github.io">
+    <meta property="al:ios:app_store_id" content="1330857258">
+    <meta property="al:ios:app_name" content="Excharm">
+
+    <meta property="al:web:url" content="https://itunes.apple.com/app/id1330857258">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="twitter:app:name:iphone" content="Excharm">
     <meta name="twitter:app:id:iphone" content="1330857258">
+
+    <meta name="apple-itunes-app" content="app-id=1330857258, app-argument=applinks://boytpcm123.github.io">
+
+
     <script>
+        var url = document.location.href;
+        var stuff = url.split('/?id=');
+        var id = stuff[stuff.length - 1];
         document.writeln('<meta property="og:url" content="' + document.location.href + '">');
         document.writeln('<meta name="apple-itunes-app" content="app-id=1330857258, app-argument=' + document.location.href + '">');
-        document.writeln('<meta property="al:ios:url" content="' + document.location.href + '">');
+        document.writeln('<meta property="al:ios:url" content="applinks://boytpcm123.github.io/?id=' + id + '">');
         document.writeln('<meta name="twitter:app:url:iphone" content="' + document.location.href + '">');
     </script>
     <style>
@@ -29,28 +41,108 @@
                 -webkit-text-size-adjust: none
             }
         }
+        
+        #container {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            margin-top: 20%;
+        }
+        
+        #container div {
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-align: center;
+            -moz-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            justify-content: center;
+            -webkit-box-pack: center;
+            -moz-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+        }
+        
+        .button {
+            background: #76B3FA;
+            border-radius: 100px;
+            padding: 10px 30px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1em;
+            margin: 0 15px;
+        }
+        /* Hover state animation applied here */
+        
+        .button:hover {
+            -webkit-animation: hover 1200ms linear 2 alternate;
+            animation: hover 1200ms linear 2 alternate;
+        }
+        /* Active state animation applied here */
+        
+        .button:active {
+            -webkit-animation: active 1200ms ease 1 alternate;
+            animation: active 1200ms ease 1 alternate;
+            background: #5F9BE0;
+        }
+        
+        .red {
+            background-color: #e74c3c;
+        }
     </style>
 
 
-    <script>
+    <!-- <script>
         var url = document.location.href;
         var stuff = url.split('/?id=');
         var id = stuff[stuff.length - 1];
         // 234234234
         window.onload = function() {
             /* Deep link URL for existing users with app already installed on their device */
-            var link = 'applinks:boytpcm123.github.io/?id=' + id;
+            var link = 'applinks:boytpcm123.github.io/excharm/?id=' + id;
             //alert(link);
             window.location = link;
 
             /* Download URL (TUNE link) for new users to download the app */
             setTimeout("window.location = 'https://itunes.apple.com/app/id1330857258';", 3000);
         }
-    </script>
+    </script> -->
 </head>
 
 <body>
+    <div id="container">
+        <div style="width:100%; height:100%">
+            <button onclick="launchApp()" class="button" type="button">Open App</button>
+            <button onclick="downloadApp()" class="button red" type="button">Get The App</button>
+        </div>
+    </div>
 
+    <script>
+        var url = document.location.href;
+        var stuff = url.split('/?id=');
+        var id = stuff[stuff.length - 1];
+        // 234234234
+        function launchApp() {
+            /* Deep link URL for existing users with app already installed on their device */
+            var link = 'applinks:boytpcm123.github.io/?id=' + id;
+            //alert(link);
+            window.location = link;
+
+
+        }
+
+        function downloadApp() {
+            /* Deep link URL for existing users with app already installed on their device */
+            var link = 'https://itunes.apple.com/app/id1330857258';
+            //alert(link);
+            window.location = link;
+        }
+    </script>
 </body>
 
 </html>
