@@ -1,0 +1,1 @@
+Your active code: {{ $active_code }}
