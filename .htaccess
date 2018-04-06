@@ -1,1 +1,1 @@
-RewriteRule ^(?:system)\b.* /403.php # with header('HTTP/1.0 403 Forbidden');
+Options -Indexes
