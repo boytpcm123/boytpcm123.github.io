@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://thong-nt.firebaseapp.com/sitemap.xml
+
+

@@ -1,147 +1,657 @@
-<!doctype html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
 <head>
-    <title>Excharm</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width,minimum-scale=1.0, maximum-scale=1.0" />
-
-    <meta property="og:title" content="Excharm">
-    <meta property="og:type" content="website">
-
-    <meta property="og:description" content="A great social app connect you to the nails industry network 
-    Nails supplies shop with variety of product just one tap away">
-    <meta property="og:image" content="/logo.png">
-    <link rel="apple-touch-icon" href="/logo.png">
-
-    <meta property="al:ios:url" content="applinks://boytpcm123.github.io">
-    <meta property="al:ios:app_store_id" content="1330857258">
-    <meta property="al:ios:app_name" content="Excharm">
-
-    <meta property="al:web:url" content="https://itunes.apple.com/app/id1330857258">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="twitter:app:name:iphone" content="Excharm">
-    <meta name="twitter:app:id:iphone" content="1330857258">
-
-    <meta name="apple-itunes-app" content="app-id=1330857258, app-argument=applinks://boytpcm123.github.io">
-
-
-    <script>
-        var url = document.location.href;
-        var stuff = url.split('/?id=');
-        var id = stuff[stuff.length - 1];
-        document.writeln('<meta property="og:url" content="' + document.location.href + '">');
-        document.writeln('<meta name="apple-itunes-app" content="app-id=1330857258, app-argument=' + document.location.href + '">');
-        document.writeln('<meta property="al:ios:url" content="applinks://boytpcm123.github.io/?id=' + id + '">');
-        document.writeln('<meta name="twitter:app:url:iphone" content="' + document.location.href + '">');
-    </script>
-    <style>
-        @media screen and (max-device-width:480px) {
-            body {
-                -webkit-text-size-adjust: none
-            }
-        }
-        
-        #container {
-            position: relative;
-            height: 100%;
-            width: 100%;
-            margin-top: 20%;
-        }
-        
-        #container div {
-            display: -webkit-box;
-            display: -moz-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-            display: flex;
-            -webkit-box-align: center;
-            -moz-box-align: center;
-            -ms-flex-align: center;
-            -webkit-align-items: center;
-            align-items: center;
-            justify-content: center;
-            -webkit-box-pack: center;
-            -moz-box-pack: center;
-            -ms-flex-pack: center;
-            -webkit-justify-content: center;
-            justify-content: center;
-        }
-        
-        .button {
-            background: #76B3FA;
-            border-radius: 100px;
-            padding: 10px 30px;
-            color: #fff;
-            text-decoration: none;
-            font-size: 1em;
-            margin: 0 15px;
-        }
-        /* Hover state animation applied here */
-        
-        .button:hover {
-            -webkit-animation: hover 1200ms linear 2 alternate;
-            animation: hover 1200ms linear 2 alternate;
-        }
-        /* Active state animation applied here */
-        
-        .button:active {
-            -webkit-animation: active 1200ms ease 1 alternate;
-            animation: active 1200ms ease 1 alternate;
-            background: #5F9BE0;
-        }
-        
-        .red {
-            background-color: #e74c3c;
-        }
-    </style>
-
-
-    <!-- <script>
-        var url = document.location.href;
-        var stuff = url.split('/?id=');
-        var id = stuff[stuff.length - 1];
-        // 234234234
-        window.onload = function() {
-            /* Deep link URL for existing users with app already installed on their device */
-            var link = 'applinks:boytpcm123.github.io/excharm/?id=' + id;
-            //alert(link);
-            window.location = link;
-
-            /* Download URL (TUNE link) for new users to download the app */
-            setTimeout("window.location = 'https://itunes.apple.com/app/id1330857258';", 3000);
-        }
-    </script> -->
+    <title>Personal Portfolio of Thong - Web & IOS Developer</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Howdy, I’m Nguyen Thuong Thong. I’m a web developer living in Ho Chi Minh, Viet Nam. I am a fan of technology, programming, and web development.">
+   
+    
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600|Patua+One:400|Titillium+Web:400italic,700italic&subset=latin,latin-ext" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/color-red.css" />
+     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-thumbs.css?v=1.0.7" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-buttons.css?v=1.0.5" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style-custom.css" />
+   
+    <!-- Jquery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.adipoli.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easytabs.min.js"></script>
+    <script type="text/javascript" src="js/jquery.hashchange.min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    <script type="text/javascript" src="js/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-media.js?v=1.0.6"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    <script type="text/javascript" src="js/response.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/js-custom.js"></script>
 </head>
 
 <body>
-    <div id="container">
-        <div style="width:100%; height:100%">
-            <button onclick="launchApp()" class="button" type="button">Open App</button>
-            <button onclick="downloadApp()" class="button red" type="button">Get The App</button>
+    <!-- Wrapper -->
+    <div id="wrapper" class="wrapper">
+        <!-- Navigation -->
+        <ul id="navigation-menu" class="navigation-menu">
+            <li class="first"><a class="profile" href="#profile"><span>Profile</span></a></li>
+            <li><a class="cv" href="#cv"><span>CV</span></a></li>
+            <li><a class="portfolio" href="#portfolio"><span>Portfolio</span></a></li>
+            <li class="last"><a class="contacts" href="#contacts"><span>Contacts</span></a></li>
+        </ul>
+        <!-- /Navigation -->
+        <!-- Container -->
+        <div id="container">
+            <!-- Profile -->
+            <div id="profile">
+                <!-- Info -->
+                <div id="info">
+                    <div class="photo"> <img src="images/content/photo.jpg" height="280" width="280" /> </div>
+                    <div class="personal-info">
+                        <div class="name-position">
+                            <div class="name">Nguyen Thuong Thong</div>
+                            <div class="position">Web & IOS Developer</div>
+                        </div>
+                        <div class="some-link">
+                            <a href="#portfolio" class="some-link"> <img class="some-link" src="images/content/somelink.png" height="140" width="580" /> <span>See My Portfolio</span> </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Info -->
+                <!-- Content Inner -->
+                <div class="content-inner">
+                    <!-- Left Sidebar -->
+                    <div class="left-sidebar">
+                        <div id="design-block" class="block">
+                            <h2>PROGRAMMING</h2>
+                            <div class="block-content">
+                                <div class="field roll-with-description hide">
+                                    <div class="roll-field">
+                                        <div class="label">IOS (Objective C and Swift)</div>
+                                        <div class="progressbar"><span class="progress-count" level="65"></span></div>
+                                    </div>
+                                </div>
+                                <div class="field roll-with-description hide">
+                                    <div class="roll-field">
+                                        <div class="label">Android</div>
+                                        <div class="progressbar"><span class="progress-count" level="35"></span></div>
+                                    </div>
+                                </div>
+                                <div class="field roll-with-description show">
+                                    <div class="roll-field">
+                                        <div class="label">Web (Front End)</div>
+                                        <div class="progressbar"><span class="progress-count" level="80"></span></div>
+                                    </div>
+                                </div>
+                                <div class="field roll-with-description show">
+                                    <div class="roll-field">
+                                        <div class="label">Wordpress</div>
+                                        <div class="progressbar"><span class="progress-count" level="85"></span></div>
+                                    </div>
+                                </div>
+                                <!-- Cleaner -->
+                                <div class="clear"></div>
+                                <!-- /Cleaner -->
+                            </div>
+                        </div>
+                        <div id="design-applications" class="block">
+                            <h2>SKILLS</h2>
+                            <div class="block-content additional-skills-content">
+                                <div class="tag-field">Adaptability</div>
+                                <div class="tag-field">Interpersonal</div>
+                                <div class="tag-field">Computing</div>
+                                <div class="tag-field">Research</div>
+                                <div class="tag-field">...</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Left Sidebar -->
+                    <!-- Content -->
+                    <div class="content content-info">
+                        <div id="skills" class="block">
+                            <h2>General Information</h2>
+                            <div class="block-content">
+                                <div class="block-content-left">
+                                    <div class="field"> <span class="label">Name:</span> <span class="text"><a href="https://www.linkedin.com/in/thongnt" target="_blank">Nguyen Thuong Thong</a></span> </div>
+                                    <div class="field"> <span class="label">Birthday:</span> <span class="text">April 01, 1992</span> </div>
+                                    <div class="field"> <span class="label">Phone:</span> <span class="text"><a href="tel:01677197639">Phone: (+84)1677197639</a></span> </div>
+                                </div>
+                                <div class="block-content-right">
+                                    <div class="field"> <span class="label">Address:</span> <span class="text"><a href="https://goo.gl/maps/gMXfMJTdG2H2" target="_blank">Ho Chi Minh City, Viet Nam</a></span> </div>
+                                    <div class="field"> <span class="label">Skype:</span> <span class="text"><a href="skype:boytpcm123?chat" >boytpcm123</a></span> </div>
+                                    <div class="field"> <span class="label">Email:</span> <span class="text"><a href="mailto:nguyenthuongthongcm@gmail.com" >nguyenthuongthongcm@gmail.com</a></span> </div>
+                                </div>
+                            </div>
+                            <!-- Cleaner -->
+                            <div class="clear"></div>
+                            <!-- /Cleaner -->
+                        </div>
+                        <h1>Hi, my name is Nguyen Thuong Thong</h1>
+                        <div class="body">
+                            <p class="first-intro">Howdy! I'm a mobile developer. My favorite working is to create facility mobile applications with fully customizable controls. I enjoy the dynamic working environment and like to conquer challenges.</p>
+                            <p>I'm also a young front-end web developer who is interesting in web development standards. I love hacking HTML and CSS, perhaps as most people hate the HTML/CSS. It is also one of the reasons why I've fallen in love with JS and front-end stack.</p>
+                        </div>
+                    </div>
+                    <!-- /Content -->
+                    <!-- Cleaner -->
+                    <div class="clear"></div>
+                    <!-- /Cleaner -->
+                </div>
+                <!-- /Content Inner -->
+            </div>
+            <!-- /Profile-->
+            <!-- CV -->
+            <div id="cv">
+                <!-- Content Inner -->
+                <div class="content-inner">
+                    <!-- Left Sidebar -->
+                    <div class="left-sidebar page">
+                        <div id="programming" class="block">
+                            <h2>PROGRAMMING</h2>
+                            <div class="block-content">
+                                <div class="field roll-with-description hide">
+                                    <div class="roll-field">
+                                        <div class="label">IOS (Objective C and Swift)</div>
+                                        <div class="progressbar"><span class="progress-count" level="65"></span></div>
+                                    </div>
+                                </div>
+                                <div class="field roll-with-description hide">
+                                    <div class="roll-field">
+                                        <div class="label">Android</div>
+                                        <div class="progressbar"><span class="progress-count" level="35"></span></div>
+                                    </div>
+                                </div>
+                                <div class="field roll-with-description show">
+                                    <div class="roll-field">
+                                        <div class="label">Web (Front End)</div>
+                                        <div class="progressbar"><span class="progress-count" level="80"></span></div>
+                                    </div>
+                                </div>
+                                <div class="field roll-with-description show">
+                                    <div class="roll-field">
+                                        <div class="label">Wordpress</div>
+                                        <div class="progressbar"><span class="progress-count" level="85"></span></div>
+                                    </div>
+                                </div>
+                                <!-- Cleaner -->
+                                <div class="clear"></div>
+                                <!-- /Cleaner -->
+                            </div>
+                        </div>
+                        <div id="design-applications" class="block">
+                            <h2>SKILLS</h2>
+                            <div class="block-content additional-skills-content">
+                                <div class="tag-field">Adaptability</div>
+                                <div class="tag-field">Interpersonal</div>
+                                <div class="tag-field">Computing</div>
+                                <div class="tag-field">Research</div>
+                                <div class="tag-field">Loyalty</div>
+                                <div class="tag-field">Team working</div>
+                                <div class="tag-field">Quick learner</div>
+                                <div class="tag-field">Problem solving</div>
+                            </div>
+                        </div>
+                        <div id="hobbits" class="block">
+                            <h2>HOBBIES</h2>
+                            <div class="block-content">
+                                <div class="roll-field">
+                                    <div class="travel label">Cultural Travelling</div>
+                                </div>
+                                <div class="roll-field">
+                                    <div class="game label">Game</div>
+                                </div>
+                                <div class="roll-field">
+                                    <div class="soccer label">Soccer</div>
+                                </div>
+                                <div class="roll-field">
+                                    <div class="music label">Music</div>
+                                </div>
+                                <div class="roll-field">
+                                    <div class="gym label">Gym</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Left Sidebar -->
+                    <!-- Content -->
+                    <div class="content" id="content-CV">
+                        <div id="employment" class="block">
+                            <h2>Employment</h2>
+                            <div class="block-content">
+                                <div class="text-field date">
+                                    <div class="text-field-left">From Sep 2014 to Now</div>
+                                    <div class="text-field-right">
+                                        <div class="title">Web & IOS Developer</div>
+                                        <div class="meta without-icon"><a class="tag" href="http://theagency.vn/">The AGENCY</a></div>
+                                        <div class="text">
+                                            <p>The AGENCY is a digital creative agency based in HCMC, Vietnam.</p>
+                                            <p>- Develop mobile application on iOS platform. Analysis and discuss requirements of the customer. </p>
+                                            <p>- Created websites that allow the user to experience web in the best and most appropriate way suited to the device they are using.</p>
+                                            <p>- Responsible for technical deliverables associated with application code development. Organizations performing group and training members.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-field date">
+                                    <div class="text-field-left">From Feb 2014 to Aug 2014</div>
+                                    <div class="text-field-right">
+                                        <div class="title">ANDROID DEVELOPER INTERN</div>
+                                        <div class="meta without-icon"><span class="tag">WIN WIN JSC</span></div>
+                                        <div class="text">
+                                            <p>Learn build an application like app Foody for the Android platform.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="education" class="block last">
+                            <h2>Education</h2>
+                            <div class="block-content">
+                                <div class="text-field date last">
+                                    <div class="text-field-left">From Oct 2010 to Mar 2015</div>
+                                    <div class="text-field-right">
+                                        <div class="title">SOFTWARE ENGINEER</div>
+                                        <div class="meta without-icon"><a class="tag" href="http://hcm.ptit.edu.vn/">Post and Telecommunication Institute Of Technology (PTIT)</a></div>
+                                        <div class="text">
+                                            <p>Bachelor of Science (B.S.), Information Technology</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Content -->
+                    <!-- Cleaner -->
+                    <div class="clear"></div>
+                    <!-- /Cleaner -->
+                </div>
+                <!-- /Content Inner -->
+            </div>
+            <!-- Portfolio -->
+            <div id="portfolio">
+                <!-- Content -->
+                <div class="content">
+                    <h2>Portfolio</h2>
+                    <!-- Portfolio Menu -->
+                    <ul id="portfolio-menu">
+                        <li><a href="" class="current" data-filter="*">All</a></li>
+                        <li><a href="" data-filter=".ios">IOS</a></li>
+                        <li><a href="" data-filter=".android">Android</a></li>
+                        <li><a href="" data-filter=".web">Web with BootStrap</a></li>
+                        <li><a href="" data-filter=".wordpress">Wordpress</a></li>
+                    </ul>
+                    <!-- /Portfolio Menu -->
+                    <!-- Portfolio Container -->
+                    <ul id="portfolio-container">
+                        <!--                        IOS-->
+                        <li class="ios">
+                            <a class="fancybox popup_ios_breast">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/ios/breast/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="https://itunes.apple.com/us/app/breast-self-check-become-expert/id972011964?mt=8">Breast Self Check App</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="ios">
+                            <a class="fancybox popup_ios_quangdao">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/ios/quangdao/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="https://itunes.apple.com/us/app/qd-lightart/id930576188?mt=8">QD LightArt App</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="ios">
+                            <a class="fancybox popup_ios_landmark81">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/ios/landmark81/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"> <a href="http://landmark.vinhomes.vn/">Landmark 81 App</a> </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="ios">
+                            <a class="fancybox popup_ios_landmarkplus">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/ios/landmarkplus/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="http://landmarkplus.vinhomes.vn/">Landmark Plus App</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="ios">
+                            <a class="fancybox popup_ios_thepark">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/ios/thepark/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="http://thepark.vinhomes.vn/">Vinhomes Central Park App</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="ios">
+                            <a class="fancybox popup_ios_thevillas">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/ios/thevillas/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"> <a href="http://thevillas.vinhomes.vn/">The Villas App</a> </div>
+                                </div>
+                            </a>
+                        </li>
+<!--
+                        <li class="ios">
+                            <a class="fancybox popup_ios_vinhphuc">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/ios/vinhphuc/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="http://www.ipavinhphuc.vn/">Vinh Phuc App</a></div>
+                                </div>
+                            </a>
+                        </li>
+-->
+                        <li class="ios">
+                            <a class="fancybox popup_ios_himmapan">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/ios/himmapan/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="http://www.himmapan.ch/">Himmapan App</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="ios">
+                            <a class="fancybox popup_ios_pacificelevator">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/ios/pacificelevator/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="http://www.pacificelevator.com/">Pacific Elevator App</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="ios">
+                            <a class="fancybox popup_ios_soleildanang">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/ios/soleildanang/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="http://www.soleildanang.vn/">Soleil Da Nang App</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="ios">
+                            <a class="fancybox popup_ios_madison">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/ios/madison/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="http://www.madison.vn/">Madison App</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="ios">
+                            <a class="fancybox popup_ios_lakeview">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/ios/lakeview/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"> <a href="http://lakeviewcity.com.vn/">LakeView City App</a> </div>
+                                </div>
+                            </a>
+                        </li>
+                        <!--                        Android-->
+                        <li class="android">
+                            <a class="fancybox popup_android_pregnant">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/android/pregnant/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="https://play.google.com/store/apps/details?id=vn.theagency.getpregnantapplication">Die Wunschkind App</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="android">
+                            <a class="fancybox popup_android_allnews">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/android/allnews/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="https://play.google.com/store/apps/details?id=com.thong.allnewstintonghop">All News-Tin Tong Hop</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="android">
+                            <a class="popup_android_vnexpress">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/android/vnexpress/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="https://play.google.com/store/apps/details?id=com.thong.tinvnexpress24h">Tin VnExpress 24h</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="android">
+                            <a class="fancybox popup_android_dantri">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/android/dantri/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="https://play.google.com/store/apps/details?id=com.thong.dantri24h">Tin Tuc Dan Tri 24h</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="android">
+                            <a class="fancybox popup_android_zing24h">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/android/zing24h/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="https://play.google.com/store/apps/details?id=com.thong.docbaohay">Tin Zing 24h</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="android">
+                            <a class="fancybox popup_android_genk">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/android/genk/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="https://play.google.com/store/apps/details?id=com.thong.tingenk">Tin Genk</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="android">
+                            <a class="fancybox popup_android_kenh14">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/android/kenh14/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="https://play.google.com/store/apps/details?id=com.thong.tinkenh14">Tin Kenh14</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <!--                        Web with BootStrap-->
+                        <li class="web">
+                            <a class="fancybox popup_web_moneyfun">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/web/moneyfun/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="http://moneyfun.vn/">Moneyfun</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="web">
+                            <a class="fancybox popup_web_himmapan">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/web/himmapan/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="http://www.himmapan.ch/">Himmapan</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="web">
+                            <a class="fancybox popup_web_karma">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/web/karma/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="http://lekarma.ch/">Karma</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="web">
+                            <a class="fancybox popup_web_zupviec">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/web/zupviec/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="http://zupviec.theagencytransfer.vn/">ZupViec</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="web">
+                            <a class="fancybox popup_web_theagency">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/web/theagency/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="http://theagency.vn/">The AGENCY</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="web">
+                            <a class="fancybox popup_web_alma">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/web/alma/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="http://alma.theagencytransfer.vn/">Alma Newsletter</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <!--                        Web with Wordpress-->
+                        <li class="wordpress">
+                            <a class="fancybox popup_wp_madison">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/wordpress/madison/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="http://www.madison.vn/">Madison Web</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="wordpress">
+                            <a class="fancybox popup_wp_soleildanang">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/wordpress/soleildanang/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="http://soleildanang.vn/">Ánh Dương Soleil Đà Nẵng</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="wordpress">
+                            <a class="fancybox popup_wp_inphotobook">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/wordpress/inphotobook/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="http://inphotobook.vn/">In Photobook</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="wordpress">
+                            <a class="fancybox popup_wp_vietnamtravel">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/wordpress/vietnamtravel/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="http://travel.theagencytransfer.vn/">VIET NAM ADVENTURE TOURS</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="wordpress">
+                            <a class="fancybox popup_wp_lacasa">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/wordpress/lacasa/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="http://canholacasa.com/">Căn hộ LACASA</a></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="wordpress">
+                            <a class="fancybox popup_wp_kiennhadat">
+                                <div class="image-field">
+                                    <div class="image"><img src="images/project/wordpress/kiennhadat/thumb.jpg" height="150" width="200" /><span></span></div>
+                                    <div class="title"><a href="http://kiennhadat.com/">
+                                    Kiên Nhà Đất</a></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /Portfolio Container -->
+                </div>
+                <!-- /Content -->
+                <!-- Cleaner -->
+                <div class="clear"></div>
+                <!-- /Cleaner -->
+            </div>
+            <!-- /Portfolio -->
+            <!-- Contacts -->
+            <div id="contacts">
+                <div id="contact-map-block" class="block">
+                    <h2>Contacts</h2>
+                    <div id="map">
+                        <iframe src="https://goo.gl/KGYnQM" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- Content Inner -->
+                <div class="content-inner">
+                    <div class="left-sidebar">
+                        <div id="contact-information" class="block">
+                            <h2>Contact Information</h2>
+                            <div class="block-content">
+                                <div class="contact-field address">
+                                    <div id="contact-name"><a href="https://www.linkedin.com/in/thongnt" target="_blank">Nguyen Thuong Thong</a></div>
+                                    <div id="contact-address"><a href="https://goo.gl/maps/gMXfMJTdG2H2" target="_blank">1135 Huynh Tan Phat, District 7, Ho Chi Minh City, Viet Nam</a></div>
+                                    <!-- From this field take address Google map-->
+                                </div>
+                                <div class="contact-field phone">
+                                    <div id="contact-phone"><a href="tel:01677197639">Phone: (+84)1677197639</a></div>
+                                    <div id="contact-skype"><a href="skype:boytpcm123?chat">Skype: boytpcm123</a></div>
+                                </div>
+                                <div class="contact-field mail">
+                                    <div id="contact-mail"> <a href="mailto:nguyenthuongthongcm@gmail.com">nguyenthuongthongcm@gmail.com</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div id="contact-form" class="block">
+                            <a href="mailto:nguyenthuongthongcm@gmail.com"><img src="images/hireme.jpg" width="100%" alt="hire-me"></a>
+                        </div>
+                    </div>
+                    <!-- Cleaner -->
+                    <div class="clear"></div>
+                    <!-- /Cleaner -->
+                </div>
+                <!-- /Content Inner -->
+            </div>
+            <!-- /Contacts -->
+            <!-- Social Button -->
+            <div id="social">
+                <ul class="pos-button">
+                    <li class="first">
+                        <a href="https://www.facebook.com/nguyenthuongthong" class="facebook" title="Facebook"></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/111378573089736568688" class="google" title="Google+"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/ninjaKIDpro" class="twitter" title="Twitter"></a>
+                    </li>
+                    <li class="last">
+                        <a href="https://www.linkedin.com/in/thongnt" class="linkedin" title="Linkedin"></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /Social Button -->
+            <!-- Action Button -->
+            <div id="action">
+                <ul class="pos-button">
+                    <!--
+                    <li class="first">
+                        <a href="https://goo.gl/VCQYKI" target="_blank" class="print" title="Print"></a>
+                    </li>
+-->
+                    <li>
+                        <a href="https://goo.gl/ThlknI" target="_blank" class="share" title="Share"></a>
+                    </li>
+                    <li class="last">
+                        <a href="/resume/Nguyen-Thuong-Thong-IOS.pdf" class="save" title="Save"></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /Action Button -->
         </div>
+        <!-- /Container -->
+        <!-- Footer -->
+        <div id="footer">
+            <div id="copyright">© Copyright 2016 Thong personal portfolio</div>
+        </div>
+        <!-- /Footer -->
     </div>
-
+    <!-- /Wrapper -->
     <script>
-        var url = document.location.href;
-        var stuff = url.split('/?id=');
-        var id = stuff[stuff.length - 1];
-        // 234234234
-        function launchApp() {
-            /* Deep link URL for existing users with app already installed on their device */
-            var link = 'applinks:boytpcm123.github.io/?id=' + id;
-            //alert(link);
-            window.location = link;
-
-
-        }
-
-        function downloadApp() {
-            /* Deep link URL for existing users with app already installed on their device */
-            var link = 'https://itunes.apple.com/app/id1330857258';
-            //alert(link);
-            window.location = link;
-        }
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-82626642-1', 'auto');
+        ga('send', 'pageview');
     </script>
 </body>
 
