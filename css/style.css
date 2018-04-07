@@ -300,6 +300,7 @@ div.photo {
     height: 280px;
     width: 280px;
     background: #343C41;
+    overflow: hidden;
 }
 
 div.personal-info {
@@ -616,7 +617,7 @@ div.text-fiels-top img {
     height: 200px;
 }
 
-div.text-field div.text-field-left{
+div.text-field div.text-field-left {
     color: white;
     font-size: 16px;
     line-height: 18px;
@@ -1009,8 +1010,8 @@ div.comment-meta div.link:hover {
     /* Mozilla фикс */
 }
 
-div.comment:hover > div.comment-meta > div.pre-link-sep,
-div.comment:hover > div.comment-meta > div.link {
+div.comment:hover>div.comment-meta>div.pre-link-sep,
+div.comment:hover>div.comment-meta>div.link {
     display: block;
 }
 
