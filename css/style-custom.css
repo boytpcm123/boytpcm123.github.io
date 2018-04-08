@@ -89,21 +89,19 @@
    /*    Video youtube */
    
    .fancybox-nav {
-       width: 20% ;
-      height: 50% ;
-       top: 25% ;
+       width: 20%;
+       height: 50%;
+       top: 25%;
    }
    
-
    .fancybox-nav span {
-       visibility: visible ;
-       opacity: 0.5 ;
+       visibility: visible;
+       opacity: 0.5;
    }
    
    .fancybox-nav:hover span {
-       opacity: 1 ;
+       opacity: 1;
    }
-
    
    @media only screen and (min-width: 1024px) {
        div.content-info {
@@ -136,4 +134,10 @@
        div.content-info div.block-content div.block-content-left {
            width: 100%;
        }
+   }
+   
+   .adipoli-wrapper,
+   .adipoli-before,
+   .adipoli-after {
+       overflow: hidden;
    }
