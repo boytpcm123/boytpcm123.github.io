@@ -1,6 +1,52 @@
 $(document).ready(function() {
     //IOS
 
+    //Echarm
+    $(".popup_ios_echarm").click(function() {
+        $.fancybox.open([{
+                href: '../images/project/ios/echarm/0.jpeg'
+            }, {
+                href: '../images/project/ios/echarm/1.jpeg'
+            }, {
+                href: '../images/project/ios/echarm/2.jpeg'
+            }, {
+                href: '../images/project/ios/echarm/3.jpeg'
+            }
+
+        ], {
+            nextEffect: 'none',
+            prevEffect: 'none',
+            padding: 0,
+            helpers: {
+                media: {}
+            }
+        });
+        return false;
+    });
+
+    //Petwidget
+    $(".popup_ios_petwidget").click(function() {
+        $.fancybox.open([{
+                href: '../images/project/ios/petwidget/0.jpeg'
+            }, {
+                href: '../images/project/ios/petwidget/1.jpeg'
+            }, {
+                href: '../images/project/ios/petwidget/2.jpeg'
+            }, {
+                href: '../images/project/ios/petwidget/3.jpeg'
+            }
+
+        ], {
+            nextEffect: 'none',
+            prevEffect: 'none',
+            padding: 0,
+            helpers: {
+                media: {}
+            }
+        });
+        return false;
+    });
+
     //Breast
     $(".popup_ios_breast").click(function() {
         $.fancybox.open([{
