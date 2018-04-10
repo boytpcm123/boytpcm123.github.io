@@ -1001,6 +1001,89 @@ $(document).ready(function() {
         return false;
     });
 
+    $(".popup_wp_wisdomlandpreschool").click(function() {
+        $.fancybox.open([{
+                href: '../images/project/wordpress/wisdomlandpreschool/0.jpeg'
+            }, {
+                href: '../images/project/wordpress/wisdomlandpreschool/1.jpeg'
+            }
+
+
+        ], {
+            nextEffect: 'none',
+            prevEffect: 'none',
+            padding: 0,
+            helpers: {
+                media: {}
+            }
+        });
+        return false;
+    });
+
+    $(".popup_wp_pearlsensespa").click(function() {
+        $.fancybox.open([{
+                href: '../images/project/wordpress/pearlsensespa/0.jpeg'
+            }, {
+                href: '../images/project/wordpress/pearlsensespa/1.jpeg'
+            }, {
+                href: '../images/project/wordpress/pearlsensespa/2.jpeg'
+            }
+
+
+        ], {
+            nextEffect: 'none',
+            prevEffect: 'none',
+            padding: 0,
+            helpers: {
+                media: {}
+            }
+        });
+        return false;
+    });
+
+    $(".popup_wp_nhahanglongbeach").click(function() {
+        $.fancybox.open([{
+                href: '../images/project/wordpress/nhahanglongbeach/0.jpeg'
+            }, {
+                href: '../images/project/wordpress/nhahanglongbeach/1.jpeg'
+            }, {
+                href: '../images/project/wordpress/nhahanglongbeach/2.jpeg'
+            }
+
+
+        ], {
+            nextEffect: 'none',
+            prevEffect: 'none',
+            padding: 0,
+            helpers: {
+                media: {}
+            }
+        });
+        return false;
+    });
+
+    $(".popup_wp_karaokelongbeach").click(function() {
+        $.fancybox.open([{
+                href: '../images/project/wordpress/karaokelongbeach/0.jpeg'
+            }, {
+                href: '../images/project/wordpress/karaokelongbeach/1.jpeg'
+            }, {
+                href: '../images/project/wordpress/karaokelongbeach/2.jpeg'
+            }
+
+
+        ], {
+            nextEffect: 'none',
+            prevEffect: 'none',
+            padding: 0,
+            helpers: {
+                media: {}
+            }
+        });
+        return false;
+    });
+
+
     //Madison wordpress
     $(".popup_wp_madison").click(function() {
         $.fancybox.open([{
