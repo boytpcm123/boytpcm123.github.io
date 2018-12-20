@@ -1,6 +1,30 @@
 $(document).ready(function() {
     //IOS
 
+    //TripScout
+    $(".popup_ios_tripscout").click(function() {
+        $.fancybox.open([{
+                href: 'https://www.youtube.com/watch?v=gX_Ad226OD0'
+            }, {
+                href: 'https://www.youtube.com/watch?v=ujJ1GxfkwJQ'
+            }, {
+                href: 'https://www.youtube.com/watch?v=8_MHZNqCNQ4'
+            }, {
+                href: '../images/project/ios/tripscout/0.jpg'
+            }
+
+        ], {
+            nextEffect: 'none',
+            prevEffect: 'none',
+            padding: 0,
+            helpers: {
+                media: {}
+            }
+        });
+        return false;
+    });
+
+
     //Echarm
     $(".popup_ios_echarm").click(function() {
         $.fancybox.open([{
