@@ -1417,86 +1417,109 @@ div#copyright {
         width: 888px;
         margin: 50px auto 0;
     }
+
     div#social,
     div#action {
         display: none;
     }
+
     ul#navigation-menu {
         width: 888px;
     }
+
     ul#navigation-menu li.last {
         margin-right: 0;
     }
+
     div#container {
         margin-right: 0;
         min-height: 0;
         width: 888px;
     }
+
     div.personal-info {
         width: 508px;
     }
+
     div.name-position {
         width: 508px;
     }
+
     div.motto {
         background-image: none;
     }
+
     div.some-link,
     div.some-link a,
     div.some-link a span {
         width: 508px;
     }
+
     div.header-block {
         width: 408px;
     }
+
     div.content {
         width: 458px;
     }
+
     div#footer {
         background: none;
         width: 888px;
     }
+
     div#documents div.content,
     div#portfolio div.content {
         width: 788px;
     }
+
     div.image-field {
         margin: 34px;
     }
+
     div.text-field.with-image {
         height: 324px;
     }
+
     div.text-field.blog div.text-field-right {
         width: 334px;
     }
+
     div.text-fiels-top {
         width: 458px;
         height: 174px;
         overflow: hidden;
     }
+
     div.content div.roll-with-description div.roll-field {
         width: 428px;
     }
+
     div.blog-image {
         width: 458px;
         height: 174px;
         overflow: hidden;
     }
+
     div.social-like {
         width: 458px;
     }
+
     form#contact div#mess textarea,
     form#comment div#comment-mess textarea {
         width: 436px !important;
     }
+
     form#contact div#about input,
     form#comment div#comment-about input {
         width: 116px;
     }
+
     div#map {
         width: 784px;
         height: 268px;
     }
+
     div#copyright {
         width: 888px;
     }
@@ -1511,127 +1534,157 @@ div#copyright {
         font-weight: 400;
         line-height: 20px;
     }
+
     h1,
     h2,
     h3 {
         font-size: 16px;
     }
+
     div#wrapper {
         width: 740px;
         margin: 30px auto 0;
     }
+
     ul#navigation-menu {
         width: 740px;
     }
+
     div#social,
     div#action {
         display: none;
     }
+
     ul#navigation-menu li.last {
         margin-right: 0;
     }
+
     ul#navigation-menu {
         height: 50px;
     }
+
     ul#navigation-menu li {
         height: 50px;
     }
+
     ul#navigation-menu li a {
         height: 45px;
     }
+
     ul#navigation-menu li a span {
         height: 45px;
         line-height: 45px;
         font-size: 14px;
         padding: 0 20px 0 60px;
     }
+
     ul#navigation-menu li a.profile span {
         width: 40px;
         background: url(../images/nav-icons/profile.png) 5px -67px no-repeat;
     }
+
     ul#navigation-menu li:hover a.profile span,
     ul#navigation-menu li a.profile.active span {
         background: white url(../images/nav-icons/profile.png) 5px -8px no-repeat;
     }
+
     ul#navigation-menu li a.cv span {
         width: 17px;
         padding: 0 21px 0 66px;
         background: url(../images/nav-icons/cv.png) 7px -66px no-repeat;
     }
+
     ul#navigation-menu li:hover a.cv span,
     ul#navigation-menu li a.cv.active span {
         background: white url(../images/nav-icons/cv.png) 7px -7px no-repeat;
     }
+
     ul#navigation-menu li a.documents span {
         width: 68px;
         padding: 0 21px 0 51px;
         background: url(../images/nav-icons/doc.png) 0 -67px no-repeat;
     }
+
     ul#navigation-menu li:hover a.documents span,
     ul#navigation-menu li a.documents.active span {
         background: white url(../images/nav-icons/doc.png) 0 -7px no-repeat;
     }
+
     ul#navigation-menu li a.portfolio span {
         width: 52px;
         background: url(../images/nav-icons/portfolio.png) 7px -68px no-repeat;
     }
+
     ul#navigation-menu li:hover a.portfolio span,
     ul#navigation-menu li a.portfolio.active span {
         background: white url(../images/nav-icons/portfolio.png) 7px -8px no-repeat;
     }
+
     ul#navigation-menu li a.blog span {
         width: 27px;
         background: url(../images/nav-icons/blog.png) 5px -67px no-repeat;
     }
+
     ul#navigation-menu li:hover a.blog span,
     ul#navigation-menu li a.blog.active span {
         background: white url(../images/nav-icons/blog.png) 5px -8px no-repeat;
     }
+
     ul#navigation-menu li a.contacts span {
         width: 52px;
         background: url(../images/nav-icons/contact.png) 4px -67px no-repeat;
     }
+
     ul#navigation-menu li:hover a.contacts span,
     ul#navigation-menu li a.contacts.active span {
         background: white url(../images/nav-icons/contact.png) 4px -7px no-repeat;
     }
+
     div#container {
         margin-right: 0;
         min-height: 0;
         width: 740px;
     }
+
     div#info {
         padding: 30px 30px 0;
         height: 200px;
     }
+
     div.photo {
         height: 200px;
         width: 200px;
     }
+
     div.photo img {
-        height: 200px !important;
+        height: auto !important;
         width: 200px !important;
     }
+
     div.personal-info {
         width: 480px;
         height: 200px;
     }
+
     div.name-position {
         width: 480px;
         height: 120px;
     }
+
     div.name {
         font-size: 36px;
         line-height: 36px;
         height: 90px;
         padding: 30px 0 0 45px;
     }
+
     div.motto {
         background-image: none;
         font-size: 30px;
         padding: 25px 0;
         height: 30px;
     }
+
     div.some-link,
     div.some-link a,
     div.some-link a span {
@@ -1639,100 +1692,126 @@ div#copyright {
         height: 80px;
         line-height: 80px;
     }
+
     div.header-block {
         padding: 10px 20px;
         width: 440px;
         height: 55px;
     }
+
     div.motto-text {
         height: 30px;
         line-height: 30px;
     }
+
     div.left-sidebar {
         padding: 30px;
         width: 170px;
     }
+
     div.content {
         width: 450px;
         padding: 30px;
     }
+
     div.content div.body {
         padding-bottom: 20px;
     }
+
     div.block {
         padding-bottom: 15px;
     }
+
     div.block h2 {
         padding-bottom: 5px;
     }
+
     div.content div.block h2,
     div.content h2 {
         font-size: 36px;
         line-height: 36px;
         padding-bottom: 15px;
     }
+
     div.left-sidebar div.roll-with-description div.roll-field {
         width: 140px;
     }
+
     div.text-field div.text-field-right {
         padding: 20px 20px 17px 100px;
     }
+
     div.text-field div.text-field-right div.text {
         height: 62px;
     }
+
     div.content div.roll-with-description div.roll-field {
         width: 420px;
     }
+
     div#footer {
         background: none;
         width: 740px;
     }
+
     div#documents div.content,
     div#portfolio div.content {
         width: 680px;
     }
+
     div.image-field {
         margin: 16px;
     }
+
     ul#portfolio-menu {
         height: 20px;
     }
+
     ul#portfolio-menu li a {
         height: 20px;
     }
+
     div.text-field.blog div.text-field-right {
         width: 326px;
     }
+
     div.text-fiels-top {
         height: 170px;
         width: 450px;
         overflow: hidden;
     }
+
     div.text-field.with-image {
         height: 320px;
     }
+
     div.blog-image {
         width: 450px;
         height: 170px;
         overflow: hidden;
     }
+
     div.social-like {
         width: 450px;
     }
+
     form#contact div#mess textarea,
     form#comment div#comment-mess textarea {
         width: 437px !important;
         padding: 5px;
     }
+
     form#contact div#about input,
     form#comment div#comment-about input {
         width: 123px;
         padding: 5px;
     }
+
     form#contact div#about input,
     form#comment div#comment-about input {
         padding: 5px;
     }
+
     form#contact div#send input,
     form#comment div#comment-send input {
         line-height: 30px;
@@ -1740,58 +1819,73 @@ div#copyright {
         font-size: 14px;
         width: 120px;
     }
+
     a.archiv {
         padding: 5px 15px;
         font-size: 14px;
     }
+
     a.archiv:hover {
         padding: 4px 14px;
     }
+
     div.right-sidebar {
         padding: 30px;
         width: 170px;
     }
+
     div#search {
         height: 30px;
     }
+
     input[name="search"] {
         padding: 5px 35px 5px 10px;
         line-height: 18px;
         width: 124px;
     }
+
     input[name="search-button"] {
         height: 30px;
         margin: 1px 0 0 -36px;
         width: 35px;
         background-position: -42px -5px;
     }
+
     input[name="search-button"]:hover {
         background-position: -2px -5px;
     }
+
     ul#blog-menu li.first {
         margin-top: -5px;
     }
+
     ul#blog-menu li a {
         padding: 10px;
     }
+
     ul#blog-menu li a:hover,
     ul#blog-menu li a.active {
         padding: 10px 10px 10px 15px;
     }
+
     div.twit-field div.twit-link a {
         font-size: 10px;
     }
+
     div#contact-map-block h2 {
         font-size: 36px;
         line-height: 36px;
     }
+
     div#contact-map-block {
         padding: 30px 30px 0;
     }
+
     div#map {
         height: 220px;
         width: 675px;
     }
+
     div#copyright {
         width: 740px;
     }
@@ -1807,32 +1901,40 @@ div#copyright {
         font-weight: 400;
         line-height: 20px;
     }
+
     h1,
     h2,
     h3 {
         font-size: 16px;
     }
+
     div#wrapper {
         width: 460px;
         margin: 20px auto 0;
     }
+
     div#social,
     div#action {
         display: none;
     }
+
     ul#navigation-menu li.last {
         margin-right: 0;
     }
+
     ul#navigation-menu {
         height: 50px;
         width: 460px;
     }
+
     ul#navigation-menu li {
         height: 50px;
     }
+
     ul#navigation-menu li a {
         height: 45px;
     }
+
     ul#navigation-menu li a span {
         height: 45px;
         line-height: 45px;
@@ -1841,48 +1943,60 @@ div#copyright {
         background-image: none !important;
         text-align: center;
     }
+
     ul#navigation-menu li a.documents span {
         width: 95px;
     }
+
     ul#navigation-menu li a.portfolio span,
     ul#navigation-menu li a.contacts span {
         width: 80px;
     }
+
     ul#navigation-menu li a.profile span {
         width: 75px;
     }
+
     ul#navigation-menu li a.blog span {
         width: 65px;
     }
+
     ul#navigation-menu li a.cv span {
         width: 60px;
     }
+
     div#container {
         margin-right: 0;
         min-height: 0;
         width: 460px;
     }
+
     div#info {
         padding: 20px 20px 0;
         height: 280px;
     }
+
     div.photo {
         height: 200px;
         width: 200px;
     }
+
     div.photo img {
-        height: 200px !important;
+        height: auto !important;
         width: 200px !important;
     }
+
     div.personal-info {
         width: 420px;
         height: 200px;
         float: inherit;
     }
+
     div.name-position {
         width: 420px;
         height: 200px;
     }
+
     div.name {
         font-size: 34px;
         line-height: 34px;
@@ -1890,12 +2004,14 @@ div#copyright {
         padding: 30px 0 0 200px;
         text-align: center;
     }
+
     div.motto {
         background-image: none;
         font-size: 30px;
         padding: 25px 0;
         height: 30px;
     }
+
     div.some-link,
     div.some-link a,
     div.some-link a span {
@@ -1903,151 +2019,188 @@ div#copyright {
         height: 80px;
         line-height: 80px;
     }
+
     div#profile div.left-sidebar div.roll-with-description div.roll-field {
         width: 150px;
     }
+
     div.header-block {
         padding: 10px 20px 0 20px;
         width: 380px;
         height: 55px;
         overflow: hidden;
     }
+
     div.motto-text {
         height: 30px;
         line-height: 30px;
     }
+
     div.left-sidebar {
         padding: 20px;
         width: 180px;
     }
+
     div.content {
         width: 200px;
         padding: 20px;
         border-radius: 0 0 3px 3px;
     }
+
     div#cv div.left-sidebar {
         min-height: 0;
         padding-bottom: 0;
     }
+
     div#cv div.left-sidebar div.block h2,
     div#blog div.right-sidebar div.block h2 {
         font-size: 30px;
         line-height: 30px;
         padding-bottom: 15px;
     }
+
     div#cv div.left-sidebar,
     div#cv div.content,
     div#blog div.content {
         float: inherit;
         width: 420px;
     }
+
     div#cv div.left-sidebar div.roll-with-description div.roll-field {
         width: 390px;
     }
+
     div.content div.roll-with-description div.roll-field {
         width: 170px;
     }
+
     div.content div.body {
         padding-bottom: 20px;
     }
+
     div.block {
         padding-bottom: 15px;
     }
+
     div.block h2 {
         padding-bottom: 5px;
     }
+
     div.content div.block h2,
     div.content h2 {
         font-size: 30px;
         line-height: 30px;
         padding-bottom: 15px;
     }
+
     div.text-field div.text-field-right {
         padding: 20px 20px 17px 100px;
     }
+
     div.text-field div.text-field-right div.text {
         height: 62px;
     }
+
     div#footer {
         background: none;
         width: 460px;
         height: 30px;
     }
+
     div#documents div.content,
     div#portfolio div.content {
         width: 420px;
     }
+
     div.image-field {
         margin: 10px;
     }
+
     ul#portfolio-menu {
         height: 20px;
     }
+
     ul#portfolio-menu li a {
         height: 20px;
     }
+
     div.text-field.blog div.text-field-right {
         width: 296px;
     }
+
     div.text-fiels-top {
         height: 160px;
         width: 420px;
         overflow: hidden;
     }
+
     div.text-field.with-image {
         height: 310px;
     }
+
     div.blog-image {
         width: 420px;
         height: 160px;
         overflow: hidden;
     }
+
     div.social-like {
         width: 420px;
     }
+
     form#contact div#about {
         padding: 10px 0 0 0;
     }
+
     form#contact div#mess textarea {
         width: 188px !important;
         padding: 5px;
     }
+
     form#contact div#about input {
         width: 188px;
         padding: 5px;
         margin-right: 0;
         margin-bottom: 19px;
     }
+
     form#contact div#send input {
         line-height: 30px;
         height: 30px;
         font-size: 14px;
         width: 120px;
     }
+
     div#post-comment {
         height: 260px;
     }
+
     form#comment div#comment-mess textarea {
         width: 407px !important;
         padding: 5px;
     }
+
     form#comment div#comment-about input {
         width: 113px;
         padding: 5px;
     }
+
     form#comment div#comment-send input {
         line-height: 30px;
         height: 30px;
         font-size: 14px;
         width: 120px;
     }
+
     a.archiv {
         padding: 5px 15px;
         font-size: 14px;
     }
+
     a.archiv:hover {
         padding: 4px 14px;
     }
+
     div.right-sidebar {
         padding: 20px;
         width: 420px;
@@ -2056,56 +2209,71 @@ div#copyright {
         min-height: 0;
         padding-bottom: 0;
     }
+
     div#latest-tweets {
         display: none;
     }
+
     div.blog-footer {
         height: 30px;
     }
+
     div#search {
         height: 30px;
     }
+
     div.text-field {
         padding-bottom: 20px;
     }
+
     input[name="search"] {
         padding: 5px 35px 5px 10px;
         line-height: 18px;
         width: 374px;
     }
+
     input[name="search-button"] {
         height: 30px;
         margin: 1px 0 0 -36px;
         width: 35px;
         background-position: -42px -5px;
     }
+
     input[name="search-button"]:hover {
         background-position: -2px -5px;
     }
+
     ul#blog-menu li.first {
         margin-top: -10px;
     }
+
     ul#blog-menu li a {
         padding: 10px;
     }
+
     ul#blog-menu li a:hover,
     ul#blog-menu li a.active {
         padding: 10px 10px 10px 15px;
     }
+
     div.twit-field div.twit-link a {
         font-size: 10px;
     }
+
     div#contact-map-block h2 {
         font-size: 30px;
         line-height: 30px;
     }
+
     div#contact-map-block {
         padding: 20px 20px 0;
     }
+
     div#map {
         height: 220px;
         width: 416px;
     }
+
     div#copyright {
         width: 460px;
         height: 30px;
@@ -2122,35 +2290,43 @@ div#copyright {
         font-weight: 400;
         line-height: 20px;
     }
+
     h1,
     h2,
     h3 {
         font-size: 16px;
     }
+
     div#wrapper {
         width: 300px;
         margin: 10px auto 0;
     }
+
     div#social,
     div#action {
         display: none;
     }
+
     ul#navigation-menu li.last {
         margin-right: 0;
     }
+
     ul#navigation-menu {
         height: 92px;
         width: 300px;
     }
+
     ul#navigation-menu li {
         height: 45px;
         border-radius: 0;
         margin-bottom: 1px;
     }
+
     ul#navigation-menu li a {
         height: 45px;
         border-radius: 0;
     }
+
     ul#navigation-menu li a span {
         height: 45px;
         line-height: 45px;
@@ -2161,29 +2337,35 @@ div#copyright {
         width: 99px !important;
         border-radius: 0;
     }
+
     div#container {
         margin-right: 0;
         min-height: 0;
         width: 299px;
     }
+
     div#info {
         padding: 10px 9px 0 10px;
         height: 580px;
     }
+
     div.photo {
         height: 280px;
         width: 280px;
         float: inherit;
     }
+
     div.personal-info {
         width: 280px;
         height: 300px;
         float: inherit;
     }
+
     div.name-position {
         width: 280px;
         height: 180px;
     }
+
     div.name {
         font-size: 34px;
         line-height: 34px;
@@ -2191,12 +2373,14 @@ div#copyright {
         padding: 30px 10px 30px 10px;
         text-align: center;
     }
+
     div.motto {
         background-image: none;
         font-size: 30px;
         padding: 30px 0;
         height: 60px;
     }
+
     div.some-link,
     div.some-link a,
     div.some-link a span {
@@ -2204,133 +2388,165 @@ div#copyright {
         height: 120px;
         line-height: 120px;
     }
+
     div.header-block {
         padding: 10px 20px 0 20px;
         width: 240px;
         height: 95px;
         overflow: hidden;
     }
+
     div#profile div.left-sidebar div.roll-with-description div.roll-field {
         width: 250px;
     }
+
     div.motto-text {
         height: 30px;
         line-height: 30px;
     }
+
     div.left-sidebar {
         padding: 10px;
         width: 280px;
         background-image: none;
     }
+
     div.content {
         width: 280px;
         padding: 10px 9px 10px 10px;
         border-radius: 0 0 3px 3px;
     }
+
     div#cv div.left-sidebar {
         min-height: 0;
         padding-bottom: 0;
     }
+
     div#cv div.left-sidebar div.block h2,
     div#blog div.right-sidebar div.block h2 {
         font-size: 30px;
         line-height: 30px;
         padding-bottom: 15px;
     }
+
     div#cv div.left-sidebar,
     div#cv div.content,
     div#blog div.content {
         float: inherit;
         width: 280px;
     }
+
     div#cv div.left-sidebar div.roll-with-description div.roll-field {
         width: 250px;
     }
+
     div.text-field div.text-field-right div.title {
         height: 20px;
         line-height: 20px;
         overflow: hidden;
     }
+
     div.content div.roll-with-description div.roll-field {
         width: 250px;
     }
+
     div.meta {
         font-size: 12px;
         height: 24px;
         overflow: hidden;
     }
+
     div.content div.body {
         padding-bottom: 20px;
     }
+
     div.block {
         padding-bottom: 15px;
     }
+
     div.block h2 {
         padding-bottom: 5px;
     }
+
     div.content div.block h2,
     div.content h2 {
         font-size: 30px;
         line-height: 30px;
         padding-bottom: 15px;
     }
+
     div.text-field div.text-field-right {
         padding: 20px 20px 17px 100px;
     }
+
     div.text-field div.text-field-right div.text {
         height: 62px;
     }
+
     div#footer {
         background: none;
         width: 299px;
         height: 30px;
     }
+
     div#documents div.content,
     div#portfolio div.content {
         width: 280px;
     }
+
     div.image-field {
         margin: 10px 50px;
     }
+
     ul#portfolio-menu {
         height: 20px;
     }
+
     ul#portfolio-menu li a {
         height: 20px;
     }
+
     div.text-field.blog div.text-field-right {
         width: 156px;
     }
+
     div.text-fiels-top {
         height: 100px;
         width: 280px;
         overflow: hidden;
     }
+
     div.text-field.with-image {
         height: 250px;
     }
+
     div.blog-image {
         width: 280px;
         height: 100px;
         overflow: hidden;
     }
+
     div.social-like {
         width: 280px;
         height: 80px;
     }
+
     form#contact div#about,
     form#comment div#comment-about {
         padding: 10px 0 0 0;
     }
+
     form#contact div#mess,
     form#comment div#comment-mess {
         padding-bottom: 10px;
     }
+
     form#contact div#mess textarea,
     form#comment div#comment-mess textarea {
         width: 268px !important;
         padding: 5px;
     }
+
     form#contact div#about input,
     form#comment div#comment-about input {
         width: 268px;
@@ -2338,6 +2554,7 @@ div#copyright {
         margin-right: 0;
         margin-bottom: 10px;
     }
+
     form#contact div#send input,
     form#comment div#comment-send input {
         line-height: 30px;
@@ -2346,16 +2563,20 @@ div#copyright {
         width: 120px;
         margin-bottom: 10px;
     }
+
     div#post-comment {
         height: 260px;
     }
+
     a.archiv {
         padding: 5px 15px;
         font-size: 14px;
     }
+
     a.archiv:hover {
         padding: 4px 14px;
     }
+
     div.right-sidebar {
         padding: 10px;
         width: 280px;
@@ -2364,56 +2585,71 @@ div#copyright {
         min-height: 0;
         padding-bottom: 0;
     }
+
     div#latest-tweets {
         display: none;
     }
+
     div.blog-footer {
         height: 30px;
     }
+
     div#search {
         height: 30px;
     }
+
     div.text-field {
         padding-bottom: 10px;
     }
+
     input[name="search"] {
         padding: 5px 35px 5px 10px;
         line-height: 18px;
         width: 232px;
     }
+
     input[name="search-button"] {
         height: 30px;
         margin: 1px 0 0 -36px;
         width: 35px;
         background-position: -42px -5px;
     }
+
     input[name="search-button"]:hover {
         background-position: -2px -5px;
     }
+
     ul#blog-menu li.first {
         margin-top: -10px;
     }
+
     ul#blog-menu li a {
         padding: 10px;
     }
+
     ul#blog-menu li a:hover,
     ul#blog-menu li a.active {
         padding: 10px 10px 10px 15px;
     }
+
     div.twit-field div.twit-link a {
         font-size: 10px;
     }
+
     div#contact-map-block h2 {
         font-size: 30px;
         line-height: 30px;
     }
+
     div#contact-map-block {
         padding: 10px 10px 0;
     }
+
     div#map {
         height: 220px;
         width: 276px;
     }
+
     div#copyright {
         width: 299px;
         height: 30px;
