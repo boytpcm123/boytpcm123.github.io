@@ -817,6 +817,60 @@ $(document).ready(function () {
     return false;
   });
 
+  //React Native
+
+  //Impact 360
+  $(".popup_reactnative_impact360").click(function () {
+    $.fancybox.open(
+      [
+        {
+          href: "../images/project/reactnative/impact360/0.jpg",
+        },
+        {
+          href: "../images/project/reactnative/impact360/1.jpg",
+        },
+        {
+          href: "../images/project/reactnative/impact360/2.jpg",
+        },
+      ],
+      {
+        nextEffect: "none",
+        prevEffect: "none",
+        padding: 0,
+        helpers: {
+          media: {},
+        },
+      }
+    );
+    return false;
+  });
+
+  //Social Lens
+  $(".popup_reactnative_sociallens").click(function () {
+    $.fancybox.open(
+      [
+        {
+          href: "../images/project/reactnative/sociallens/0.jpg",
+        },
+        {
+          href: "../images/project/reactnative/sociallens/1.jpg",
+        },
+        {
+          href: "../images/project/reactnative/sociallens/2.jpg",
+        },
+      ],
+      {
+        nextEffect: "none",
+        prevEffect: "none",
+        padding: 0,
+        helpers: {
+          media: {},
+        },
+      }
+    );
+    return false;
+  });
+
   //Android
 
   //Pregnant
