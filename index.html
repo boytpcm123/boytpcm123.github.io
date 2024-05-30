@@ -1,649 +1,923 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
-<head>
-    <title>Personal Portfolio of Thong - Web & Mobile Developer</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
-    <meta name="description" content="Howdy, I’m Nguyen Thuong Thong. I’m a senior iOS developer living in Ho Chi Minh, Viet Nam. I am a fan of technology, programming, and web development." />
+    <head>
+        <title>Personal Portfolio of Thong - Web & Mobile Developer</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+        <meta name="description"
+            content="Howdy, I’m Nguyen Thuong Thong. I’m a senior iOS developer living in Ho Chi Minh, Viet Nam. I am a fan of technology, programming, and web development." />
 
-    <!-- Open Graph data -->
-    <meta property="og:title" content="Personal Portfolio of Thong - Web & Mobile Developer" />
-    <meta property="og:type" content="Portfolio" />
-    <meta property="og:url" content="https://thong-nt.firebaseapp.com/" />
-    <meta property="og:image" content="https://thong-nt.firebaseapp.com/images/content/photo.png" />
-    <meta property="og:description" content="Howdy, I’m Nguyen Thuong Thong. I’m a senior iOS developer living in Ho Chi Minh, Viet Nam. I am a fan of technology, programming, and web development." />
+        <!-- Open Graph data -->
+        <meta property="og:title"
+            content="Personal Portfolio of Thong - Web & Mobile Developer" />
+        <meta property="og:type" content="Portfolio" />
+        <meta property="og:url" content="https://thong-nt.firebaseapp.com/" />
+        <meta property="og:image"
+            content="https://thong-nt.firebaseapp.com/images/content/photo.png" />
+        <meta property="og:description"
+            content="Howdy, I’m Nguyen Thuong Thong. I’m a senior iOS developer living in Ho Chi Minh, Viet Nam. I am a fan of technology, programming, and web development." />
 
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600|Patua+One:400|Titillium+Web:400italic,700italic&subset=latin,latin-ext" />
-    <link rel="stylesheet" type="text/css" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/color-red.css" />
-    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
-    <!-- Optionally add helpers - button, thumbnail and/or media -->
-    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-thumbs.css?v=1.0.7" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-buttons.css?v=1.0.5" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/style-custom.css" />
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114"
+            href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120"
+            href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144"
+            href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152"
+            href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180"
+            href="/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"
+            href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32"
+            href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96"
+            href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16"
+            href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" type="text/css"
+            href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600|Patua+One:400|Titillium+Web:400italic,700italic&subset=latin,latin-ext" />
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="css/color-red.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
+        <!-- Optionally add helpers - button, thumbnail and/or media -->
+        <link rel="stylesheet" type="text/css"
+            href="css/jquery.fancybox-thumbs.css?v=1.0.7" media="screen" />
+        <link rel="stylesheet" type="text/css"
+            href="css/jquery.fancybox-buttons.css?v=1.0.5" media="screen" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/style-custom.css" />
 
-    <!-- Jquery -->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.adipoli.min.js"></script>
-    <script type="text/javascript" src="js/jquery.easytabs.min.js"></script>
-    <script type="text/javascript" src="js/jquery.hashchange.min.js"></script>
-    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-    <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
-    <!-- Optionally add helpers - button, thumbnail and/or media -->
-    <script type="text/javascript" src="js/jquery.fancybox-buttons.js?v=1.0.5"></script>
-    <script type="text/javascript" src="js/jquery.fancybox-media.js?v=1.0.6"></script>
-    <script type="text/javascript" src="js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-    <script type="text/javascript" src="js/response.min.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
-    <script type="text/javascript" src="js/js-custom.js"></script>
-</head>
+        <!-- Jquery -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.adipoli.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easytabs.min.js"></script>
+        <script type="text/javascript"
+            src="js/jquery.hashchange.min.js"></script>
+        <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+        <script type="text/javascript"
+            src="js/jquery.fancybox.pack.js"></script>
+        <!-- Optionally add helpers - button, thumbnail and/or media -->
+        <script type="text/javascript"
+            src="js/jquery.fancybox-buttons.js?v=1.0.5"></script>
+        <script type="text/javascript"
+            src="js/jquery.fancybox-media.js?v=1.0.6"></script>
+        <script type="text/javascript"
+            src="js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+        <script type="text/javascript" src="js/response.min.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+        <script type="text/javascript" src="js/js-custom.js"></script>
+    </head>
 
-<body>
-    <!-- Wrapper -->
-    <div id="wrapper" class="wrapper">
-        <!-- Navigation -->
-        <ul id="navigation-menu" class="navigation-menu">
-            <li class="first">
-                <a class="profile" href="#profile"><span>Profile</span></a>
-            </li>
-            <li>
-                <a class="cv" href="#cv"><span>CV</span></a>
-            </li>
-            <li>
-                <a class="portfolio" href="#portfolio"><span>Portfolio</span></a>
-            </li>
-            <li class="last">
-                <a class="contacts" href="#contacts"><span>Contacts</span></a>
-            </li>
-        </ul>
-        <!-- /Navigation -->
-        <!-- Container -->
-        <div id="container">
-            <!-- Profile -->
-            <div id="profile">
-                <!-- Info -->
-                <div id="info">
-                    <div class="photo">
-                        <img src="images/content/photo.png" height="auto" width="280" />
-                    </div>
-                    <div class="personal-info">
-                        <div class="name-position">
-                            <div class="name">Nguyen Thuong Thong</div>
-                            <div class="position">Senior iOS Developer</div>
+    <body>
+        <!-- Wrapper -->
+        <div id="wrapper" class="wrapper">
+            <!-- Navigation -->
+            <ul id="navigation-menu" class="navigation-menu">
+                <li class="first">
+                    <a class="profile" href="#profile"><span>Profile</span></a>
+                </li>
+                <li>
+                    <a class="cv" href="#cv"><span>CV</span></a>
+                </li>
+                <li>
+                    <a class="portfolio"
+                        href="#portfolio"><span>Portfolio</span></a>
+                </li>
+                <li class="last">
+                    <a class="contacts"
+                        href="#contacts"><span>Contacts</span></a>
+                </li>
+            </ul>
+            <!-- /Navigation -->
+            <!-- Container -->
+            <div id="container">
+                <!-- Profile -->
+                <div id="profile">
+                    <!-- Info -->
+                    <div id="info">
+                        <div class="photo">
+                            <img src="images/content/photo.png" height="auto"
+                                width="280" />
                         </div>
-                        <div class="some-link">
-                            <a href="#portfolio" class="some-link">
-                                <img class="some-link" src="images/content/somelink.png" height="140" width="580" />
-                                <span>See My Portfolio</span>
-                            </a>
+                        <div class="personal-info">
+                            <div class="name-position">
+                                <div class="name">Nguyen Thuong Thong</div>
+                                <div class="position">Senior iOS Developer</div>
+                            </div>
+                            <div class="some-link">
+                                <a href="#portfolio" class="some-link">
+                                    <img class="some-link"
+                                        src="images/content/somelink.png"
+                                        height="140" width="580" />
+                                    <span>See My Portfolio</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- /Info -->
-                <!-- Content Inner -->
-                <div class="content-inner">
-                    <!-- Left Sidebar -->
-                    <div class="left-sidebar">
-                        <div id="design-block" class="block">
-                            <h2>PROGRAMMING</h2>
-                            <div class="block-content">
-                                <div class="field roll-with-description hide">
-                                    <div class="roll-field">
-                                        <div class="label">Objective C</div>
-                                        <div class="progressbar">
-                                            <span class="progress-count" level="90"></span>
+                    <!-- /Info -->
+                    <!-- Content Inner -->
+                    <div class="content-inner">
+                        <!-- Left Sidebar -->
+                        <div class="left-sidebar">
+                            <div id="design-block" class="block">
+                                <h2>PROGRAMMING</h2>
+                                <div class="block-content">
+                                    <div
+                                        class="field roll-with-description hide">
+                                        <div class="roll-field">
+                                            <div class="label">Swift</div>
+                                            <div class="progressbar">
+                                                <span class="progress-count"
+                                                    level="95"></span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="field roll-with-description hide">
-                                    <div class="roll-field">
-                                        <div class="label">Swift, SwiftUI</div>
-                                        <div class="progressbar">
-                                            <span class="progress-count" level="80"></span>
+                                    <div
+                                        class="field roll-with-description hide">
+                                        <div class="roll-field">
+                                            <div class="label">Objective-C</div>
+                                            <div class="progressbar">
+                                                <span class="progress-count"
+                                                    level="80"></span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="field roll-with-description show">
-                                    <div class="roll-field">
-                                        <div class="label">Flutter</div>
-                                        <div class="progressbar">
-                                            <span class="progress-count" level="60"></span>
+                                    <div
+                                        class="field roll-with-description show">
+                                        <div class="roll-field">
+                                            <div class="label">Android & Flutter
+                                                Knowledge</div>
+                                            <div class="progressbar">
+                                                <span class="progress-count"
+                                                    level="30"></span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="field roll-with-description show">
-                                    <div class="roll-field">
-                                        <div class="label">React Native</div>
-                                        <div class="progressbar">
-                                            <span class="progress-count" level="30"></span>
+                                    <div
+                                        class="field roll-with-description show">
+                                        <div class="roll-field">
+                                            <div class="label">Web Front
+                                                End</div>
+                                            <div class="progressbar">
+                                                <span class="progress-count"
+                                                    level="30"></span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class="field roll-with-description show">
-                                    <div class="roll-field">
-                                        <div class="tag-field">...</div>
+                                    <div
+                                        class="field roll-with-description show">
+                                        <div class="roll-field">
+                                            <div class="tag-field">...</div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Cleaner -->
+                                    <div class="clear"></div>
+                                    <!-- /Cleaner -->
+                                </div>
+                            </div>
+                            <div id="design-applications" class="block">
+                                <h2>OTHER</h2>
+                                <div
+                                    class="block-content additional-skills-content">
+                                    <div class="tag-field">Design Pattern</div>
+                                    <div class="tag-field">Scrum</div>
+                                    <div class="tag-field">Unit/UI Testing</div>
+                                    <div class="tag-field">CI/CD</div>
+                                    <div class="tag-field">UI/UX
+                                        Experience</div>
+                                    <div class="tag-field">...</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Left Sidebar -->
+                        <!-- Content -->
+                        <div class="content content-info">
+                            <div id="skills" class="block">
+                                <h2>General Information</h2>
+                                <div class="block-content">
+                                    <div class="block-content-left">
+                                        <div class="field">
+                                            <span class="label">Name:</span>
+                                            <span class="text"><a
+                                                    href="https://www.linkedin.com/in/thongnt"
+                                                    target="_blank">Nguyen
+                                                    Thuong Thong</a></span>
+                                        </div>
+                                        <div class="field">
+                                            <span class="label">Github:</span>
+                                            <span class="text"><a
+                                                    target="_blank"
+                                                    href="https://github.com/boytpcm123"
+                                                    target="_blank">github.com/boytpcm123</a></span>
+                                        </div>
+                                        <div class="field">
+                                            <span class="label">Phone:</span>
+                                            <span class="text"><a
+                                                    target="_blank"
+                                                    href="tel:0377197639">Phone:
+                                                    (+84) 377 197 639</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="block-content-right">
+                                        <div class="field">
+                                            <span class="label">Address:</span>
+                                            <span class="text"><a
+                                                    href="https://maps.app.goo.gl/MXRSGW2XCJBnU96Q9"
+                                                    target="_blank">District 12,
+                                                    HCM City, Viet
+                                                    Nam</a></span>
+                                        </div>
+                                        <div class="field">
+                                            <span class="label">Linkedin:</span>
+                                            <span class="text"><a
+                                                    target="_blank"
+                                                    href="https://www.linkedin.com/in/thongnt/">linkedin.com/in/thongnt</a></span>
+                                        </div>
+                                        <div class="field">
+                                            <span class="label">Email:</span>
+                                            <span class="text"><a
+                                                    target="_blank"
+                                                    href="mailto:nguyenthuongthongcm@gmail.com">nguyenthuongthongcm@gmail.com</a></span>
+                                        </div>
                                     </div>
                                 </div>
-
                                 <!-- Cleaner -->
                                 <div class="clear"></div>
                                 <!-- /Cleaner -->
                             </div>
-                        </div>
-                        <div id="design-applications" class="block">
-                            <h2>SKILLS</h2>
-                            <div class="block-content additional-skills-content">
-                                <div class="tag-field">Adaptability</div>
-                                <div class="tag-field">Interpersonal</div>
-                                <div class="tag-field">Computing</div>
-                                <div class="tag-field">Research</div>
-                                <div class="tag-field">...</div>
+                            <h1>Hi, my name is Nguyen Thuong Thong</h1>
+                            <div class="body">
+                                <p class="first-intro">
+                                    Highly motivated Senior iOS Developer with
+                                    <b>8+</b> years of experience in mobile and
+                                    web development.
+                                    Proven ability to deliver high-quality,
+                                    user-centric applications across the entire
+                                    development lifecycle,
+                                    from requirements gathering to deployment
+                                    and maintenance.
+                                    Extensive experience in <b>Swift</b>,
+                                    <b>Objective-C</b>, and best practices for
+                                    building performant and scalable iOS apps.
+                                    Passionate about continuous learning and
+                                    staying current with the latest technologies
+                                    to drive exceptional user experiences.
+                                </p>
+                            </div>
+                            <h1>References</h1>
+                            <div class="body">
+                                <p class="first-intro">
+                                    Alva Kiel - Product Manager at JobAdder - <a href="/reference/Reference-for-Thong-Nguyen-Thuong-(Senior-iOS-Developer).pdf" target="_blank"><b>Reference Link</b></a>
+                                </p>
                             </div>
                         </div>
+                        <!-- /Content -->
+                        <!-- Cleaner -->
+                        <div class="clear"></div>
+                        <!-- /Cleaner -->
                     </div>
-                    <!-- /Left Sidebar -->
+                    <!-- /Content Inner -->
+                </div>
+                <!-- /Profile-->
+                <!-- CV -->
+                <div id="cv">
+                    <!-- Content Inner -->
+                    <div class="content-inner">
+                        <!-- Left Sidebar -->
+                        <div class="left-sidebar page">
+                            <div id="programming" class="block">
+                                <h2>PROGRAMMING</h2>
+                                <div class="block-content">
+                                    <div
+                                        class="field roll-with-description hide">
+                                        <div class="roll-field">
+                                            <div class="label">Swift</div>
+                                            <div class="progressbar">
+                                                <span class="progress-count"
+                                                    level="95"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="field roll-with-description hide">
+                                        <div class="roll-field">
+                                            <div class="label">Objective-C</div>
+                                            <div class="progressbar">
+                                                <span class="progress-count"
+                                                    level="80"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="field roll-with-description show">
+                                        <div class="roll-field">
+                                            <div class="label">Android & Flutter
+                                                Knowledge </div>
+                                            <div class="progressbar">
+                                                <span class="progress-count"
+                                                    level="30"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="field roll-with-description show">
+                                        <div class="roll-field">
+                                            <div class="label">Web Front
+                                                End</div>
+                                            <div class="progressbar">
+                                                <span class="progress-count"
+                                                    level="30"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Cleaner -->
+                                    <div class="clear"></div>
+                                    <!-- /Cleaner -->
+                                </div>
+                            </div>
+                            <div id="design-applications" class="block">
+                                <h2>OTHER</h2>
+                                <div
+                                    class="block-content additional-skills-content">
+                                    <div class="tag-field">Design Pattern</div>
+                                    <div class="tag-field">Scrum</div>
+                                    <div class="tag-field">Unit/UI Testing</div>
+                                    <div class="tag-field">CI/CD</div>
+                                    <div class="tag-field">UI/UX
+                                        Experience</div>
+                                </div>
+                            </div>
+                            <div id="design-applications" class="block">
+                                <h2>SOFT SKILLS</h2>
+                                <div
+                                    class="block-content additional-skills-content">
+                                    <div class="tag-field">Team management</div>
+                                    <div class="tag-field">Technical
+                                        troubleshooting</div>
+                                    <div class="tag-field">UI/UX expertise</div>
+                                    <div class="tag-field">Agile
+                                        environment</div>
+                                    <div class="tag-field">Loyalty</div>
+                                </div>
+                            </div>
+                            <div id="hobbits" class="block">
+                                <h2>HOBBIES</h2>
+                                <div class="block-content">
+                                    <div class="roll-field">
+                                        <div class="travel label">Cultural
+                                            Travelling</div>
+                                    </div>
+                                    <div class="roll-field">
+                                        <div class="game label">Game</div>
+                                    </div>
+                                    <div class="roll-field">
+                                        <div class="soccer label">Soccer</div>
+                                    </div>
+                                    <div class="roll-field">
+                                        <div class="music label">Music</div>
+                                    </div>
+                                    <div class="roll-field">
+                                        <div class="gym label">Gym</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Left Sidebar -->
+                        <!-- Content -->
+                        <div class="content" id="content-CV">
+                            <div id="employment" class="block">
+                                <h2>Employment</h2>
+                                <div class="block-content">
+                                    <div class="text-field date">
+                                        <div class="text-field-left">From Jun
+                                            2018 to Now</div>
+                                        <div class="text-field-right">
+                                            <div class="title">Senior iOS
+                                                Developer at Team JobAdder
+                                                Vietnam</div>
+                                            <div class="meta without-icon">
+                                                <a class="tag"
+                                                    href="https://collaborationbetterstheworld.com/">CBTW
+                                                    IT & Technology / Positive
+                                                    Thinking Company</a>
+                                            </div>
+                                            <div class="text">
+                                                <p>
+                                                    CBTW is a global tech
+                                                    company with 3,000+
+                                                    professionals in 21
+                                                    countries. JobAdder is a
+                                                    company that provides
+                                                    Applicant Tracking System
+                                                    (ATS) software
+                                                    https://jobadder.com/.
+                                                </p>
+                                                <p>
+                                                    - Successfully developed and
+                                                    released 8 versions of the
+                                                    JobAdder iOS app, adding
+                                                    numerous new features and
+                                                    improvements that have
+                                                    significantly enhanced the
+                                                    user experience and
+                                                    functionality of the app.
+                                                </p>
+                                                <p>
+                                                    - Played a crucial role in
+                                                    increasing the unit test
+                                                    code coverage to 54%,
+                                                    achieved a remarkable 100%
+                                                    crash-free user rate, and
+                                                    97.7% overall performance
+                                                    score on New Relic. These
+                                                    numbers indicate the app's
+                                                    exceptional stability and
+                                                    responsiveness under various
+                                                    usage scenarios.
+                                                </p>
+                                                <p>
+                                                    - Fully completed setting up
+                                                    CI/CD on GitHub Action,
+                                                    auto-detecting priority
+                                                    running on Self-hosted
+                                                    runner to save cost,
+                                                    uploading test results to
+                                                    SonarCloud, and releasing
+                                                    the new version to
+                                                    Testflight.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-field date">
+                                        <div class="text-field-left">From May
+                                            2018 to Jun 2022</div>
+                                        <div class="text-field-right">
+                                            <div class="title">Senior iOS
+                                                Developer</div>
+                                            <div class="meta without-icon">
+                                                <a class="tag"
+                                                    href="https://www.hdwebsoft.com/">HDWEBSOFT
+                                                    Software Development
+                                                    Company</a>
+                                            </div>
+                                            <div class="text">
+                                                <p>
+                                                    HDWebsoft provides
+                                                    high-quality software
+                                                    development outsourcing
+                                                    services to clients in
+                                                    Europe and America.
+                                                </p>
+                                                <p>
+                                                    - Led a team of 4+
+                                                    developers, fostering a
+                                                    collaborative environment
+                                                    that delivered new
+                                                    application capabilities,
+                                                    ensured smooth maintenance,
+                                                    and provided efficient
+                                                    support for customer issues.
+                                                </p>
+                                                <p>
+                                                    - Contributed significantly
+                                                    to the successful
+                                                    development of 5+ projects,
+                                                    directly impacting user
+                                                    satisfaction.
+                                                </p>
+                                                <p>
+                                                    - Possess strong technical
+                                                    expertise, demonstrated in
+                                                    reviewing client
+                                                    requirements, wireframes,
+                                                    and designs for technical
+                                                    feasibility. This proactive
+                                                    approach ensured project
+                                                    success.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-field date">
+                                        <div class="text-field-left">From Nov
+                                            2016 to May 2018</div>
+                                        <div class="text-field-right">
+                                            <div class="title">Wordpress & IOS
+                                                Developer</div>
+                                            <div class="meta without-icon">
+                                                <a class="tag"
+                                                    href="http://www.3forcom.com/">3FORCOM</a>
+                                            </div>
+                                            <div class="text">
+                                                <p>3FORCOM is an international
+                                                    IT partner.</p>
+                                                <p>
+                                                    - Ensured application
+                                                    stability through daily code
+                                                    maintenance, efficiently
+                                                    debugging issues and
+                                                    resolving client problems.
+                                                </p>
+                                                <p>
+                                                    - Demonstrated strong
+                                                    problem-solving skills by
+                                                    successfully resolving UI
+                                                    design issues for multiple
+                                                    versions of iOS.
+                                                </p>
+                                                <p>
+                                                    - Thrived in a fast-paced
+                                                    environment, consistently
+                                                    meeting deadlines by
+                                                    completing expected
+                                                    deliverables on time for
+                                                    every sprint while adhering
+                                                    to project plans.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-field date">
+                                        <div class="text-field-left">From Sep
+                                            2014 to Oct 2016</div>
+                                        <div class="text-field-right">
+                                            <div class="title">Web & IOS
+                                                Developer</div>
+                                            <div class="meta without-icon">
+                                                <a class="tag"
+                                                    href="http://www.theagency.vn/">The
+                                                    AGENCY</a>
+                                            </div>
+                                            <div class="text">
+                                                <p>
+                                                    The AGENCY is a digital
+                                                    creative agency based in
+                                                    HCMC, Vietnam.
+                                                </p>
+                                                <p>
+                                                    - Developed engaging UI
+                                                    components and outlets for
+                                                    application screens,
+                                                    contributing to a
+                                                    user-friendly and intuitive
+                                                    experience.
+                                                </p>
+                                                <p>
+                                                    - Collaborated effectively
+                                                    with product managers and
+                                                    designers to translate their
+                                                    vision into a rich and
+                                                    engaging iOS experience.
+                                                </p>
+                                                <p>
+                                                    - Demonstrated expertise in
+                                                    responsive web by creating
+                                                    websites that seamlessly
+                                                    adapt to various user
+                                                    devices, ensuring an optimal
+                                                    web experience across
+                                                    platforms.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-field date">
+                                        <div class="text-field-left">From Feb
+                                            2014 to Aug 2014</div>
+                                        <div class="text-field-right">
+                                            <div class="title">ANDROID DEVELOPER
+                                                INTERN</div>
+                                            <div class="meta without-icon">
+                                                <span class="tag">WIN WIN
+                                                    JSC</span>
+                                            </div>
+                                            <div class="text">
+                                                <p>
+                                                    Learn and develop an
+                                                    application like the app
+                                                    "Foody" for the Android
+                                                    platform.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="education" class="block last">
+                                <h2>Education</h2>
+                                <div class="block-content">
+                                    <div class="text-field date last">
+                                        <div class="text-field-left">From Oct
+                                            2010 to Mar 2015</div>
+                                        <div class="text-field-right">
+                                            <div class="title">SOFTWARE
+                                                ENGINEER</div>
+                                            <div class="meta without-icon">
+                                                <a class="tag"
+                                                    href="http://hcm.ptit.edu.vn/">Post
+                                                    and Telecommunication
+                                                    Institute Of Technology
+                                                    (PTIT)</a>
+                                            </div>
+                                            <div class="text">
+                                                <p>
+                                                    Bachelor of Science (B.S.),
+                                                    Information Technology. GPA:
+                                                    7.8/10.0
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Content -->
+                        <!-- Cleaner -->
+                        <div class="clear"></div>
+                        <!-- /Cleaner -->
+                    </div>
+                    <!-- /Content Inner -->
+                </div>
+                <!-- Portfolio -->
+                <div id="portfolio">
                     <!-- Content -->
-                    <div class="content content-info">
-                        <div id="skills" class="block">
-                            <h2>General Information</h2>
-                            <div class="block-content">
-                                <div class="block-content-left">
-                                    <div class="field">
-                                        <span class="label">Name:</span>
-                                        <span class="text"><a href="https://www.linkedin.com/in/thongnt" target="_blank">Nguyen Thuong Thong</a></span
-                      >
-                    </div>
-                    <div class="field">
-                      <span class="label">Github:</span>
-                                        <span class="text"><a target="_blank" href="https://github.com/boytpcm123" target="_blank"
-                          >github.com/boytpcm123</a
-                        ></span
-                      >
-                    </div>
-                    <div class="field">
-                      <span class="label">Phone:</span>
-                                        <span class="text"><a target="_blank" href="tel:0377197639">Phone: (+84) 377 197 639</a></span>
+                    <div class="content">
+                        <h2>Portfolio</h2>
+                        <!-- Portfolio Menu -->
+                        <ul id="portfolio-menu">
+                            <li>
+                                <a target="_blank" href class="current"
+                                    data-filter="*">All</a>
+                            </li>
+                            <li><a target="_blank" href
+                                    data-filter=".ios">IOS</a></li>
+                            <li>
+                                <a target="_blank" href
+                                    data-filter=".flutter">Flutter</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href
+                                    data-filter=".reactnative">React Native</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href
+                                    data-filter=".android">Android</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href
+                                    data-filter=".wordpress">Wordpress</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href data-filter=".web">Web
+                                    with BootStrap</a>
+                            </li>
+                        </ul>
+                        <!-- /Portfolio Menu -->
+                        <!-- Portfolio Container -->
+                        <ul id="portfolio-container">
+                            <!-- IOS-->
+                            <li class="ios">
+                                <a class="fancybox popup_ios_jobadder">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/ios/jobadder/thumb.png"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="https://apps.apple.com/us/app/jobadder-mobile-next-gen/id1570759748">
+                                                JobAdder Mobile - Next Gen
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="block-content-right">
-                                    <div class="field">
-                                        <span class="label">Address:</span>
-                                        <span class="text"><a href="https://goo.gl/maps/6zyW59PPTDcxwhD3A" target="_blank"
-                          >District 12, HCM City, Viet Nam</a
-                        ></span
-                      >
-                    </div>
-                    <div class="field">
-                      <span class="label">Skype:</span>
-                                        <span class="text"><a target="_blank" href="skype:boytpcm123?chat">boytpcm123</a></span>
+                                </a>
+                            </li>
+                            <li class="ios">
+                                <a class="fancybox popup_ios_tripscout">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/ios/tripscout/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="https://apps.apple.com/us/app/trip-scout-my-travel-planner/id1005057966">
+                                                TripScout - City Trip Planner
+                                            </a>
+                                        </div>
                                     </div>
-                                    <div class="field">
-                                        <span class="label">Email:</span>
-                                        <span class="text"><a target="_blank" href="mailto:nguyenthuongthongcm@gmail.com"
-                          >nguyenthuongthongcm@gmail.com</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </div>
-                <!-- Cleaner -->
-                <div class="clear"></div>
-                <!-- /Cleaner -->
-              </div>
-              <h1>Hi, my name is Nguyen Thuong Thong</h1>
-              <div class="body">
-                <p class="first-intro">
-                  <b>Over 6 years of experience</b> in the area of software development for <b>mobiles and web</b>, 
-                  which includes <b>understanding requirement specifications</b>, working on <b>software design</b>, <b>coding</b>, 
-                  <b>testing</b> and <b>maintenance</b>. I’m always ​​learning as much as possible and doing my best in order 
-                  to bring the best value and experience for the customers.
-                </p>
-                <p>
-                  I'm also a young front-end web developer who is interesting in web development standards. I love
-                  hacking HTML and CSS, perhaps as most people hate the HTML/CSS. It is also one of the reasons why I've
-                  fallen in love with JS and front-end stack.
-                </p>
-              </div>
-            </div>
-            <!-- /Content -->
-            <!-- Cleaner -->
-            <div class="clear"></div>
-            <!-- /Cleaner -->
-          </div>
-          <!-- /Content Inner -->
-        </div>
-        <!-- /Profile-->
-        <!-- CV -->
-        <div id="cv">
-          <!-- Content Inner -->
-          <div class="content-inner">
-            <!-- Left Sidebar -->
-            <div class="left-sidebar page">
-              <div id="programming" class="block">
-                <h2>PROGRAMMING</h2>
-                <div class="block-content">
-                  <div class="field roll-with-description hide">
-                    <div class="roll-field">
-                      <div class="label">Objective C</div>
-                      <div class="progressbar">
-                        <span class="progress-count" level="90"></span>
+                                </a>
+                            </li>
+                            <li class="ios">
+                                <a class="fancybox popup_ios_hhpoker">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/ios/hhpoker/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="http://hhpoker.net/">
+                                                HHPoker - Poker games online
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="field roll-with-description hide">
-                                <div class="roll-field">
-                                    <div class="label">Swift, SwiftUI</div>
-                                    <div class="progressbar">
-                                        <span class="progress-count" level="80"></span>
+                                </a>
+                            </li>
+                            <li class="ios">
+                                <a class="fancybox popup_ios_widgit">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/ios/widgit/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="https://www.widgit.app/">
+                                                Widgit - Fun Custom Widgets
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="field roll-with-description show">
-                                <div class="roll-field">
-                                    <div class="label">Flutter</div>
-                                    <div class="progressbar">
-                                        <span class="progress-count" level="60"></span>
+                                </a>
+                            </li>
+                            <li class="ios">
+                                <a class="fancybox popup_ios_connective">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/ios/connective/thumb.png"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="https://www.hdwebsoft.com/showcases/connective-for-creatives">
+                                                Connective - For Creatives
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="field roll-with-description show">
-                                <div class="roll-field">
-                                    <div class="label">React Native</div>
-                                    <div class="progressbar">
-                                        <span class="progress-count" level="30"></span>
+                                </a>
+                            </li>
+                            <li class="ios">
+                                <a class="fancybox popup_ios_echarm">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/ios/echarm/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="https://itunes.apple.com/app/id1330857258">Excharm
+                                                - Nails Marketplace</a>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="field roll-with-description show">
-                                <div class="roll-field">
-                                    <div class="label">Android</div>
-                                    <div class="progressbar">
-                                        <span class="progress-count" level="15"></span>
+                                </a>
+                            </li>
+                            <li class="ios">
+                                <a class="fancybox popup_ios_petwidget">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/ios/petwidget/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a>Pet Widget - The Best Pet App</a>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="field roll-with-description show">
-                                <div class="roll-field">
-                                    <div class="label">WordPress and Frontend UI</div>
-                                    <div class="progressbar">
-                                        <span class="progress-count" level="60"></span>
+                                </a>
+                            </li>
+                            <li class="ios">
+                                <a class="fancybox popup_ios_breast">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/ios/breast/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="https://itunes.apple.com/app/id972011964">Breast
+                                                Self Check App</a>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="field roll-with-description show">
-                                <div class="roll-field">
-                                    <div class="label">Fastlane, CI/CD</div>
-                                    <div class="progressbar">
-                                        <span class="progress-count" level="85"></span>
+                                </a>
+                            </li>
+                            <li class="ios">
+                                <a class="fancybox popup_ios_quangdao">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/ios/quangdao/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="https://itunes.apple.com/us/app/qd-lightart/id930576188?mt=8">QD
+                                                LightArt App</a>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <!-- Cleaner -->
-                            <div class="clear"></div>
-                            <!-- /Cleaner -->
-                        </div>
-                    </div>
-                    <div id="design-applications" class="block">
-                        <h2>SKILLS</h2>
-                        <div class="block-content additional-skills-content">
-                            <div class="tag-field">Adaptability</div>
-                            <div class="tag-field">Interpersonal</div>
-                            <div class="tag-field">Computing</div>
-                            <div class="tag-field">Research</div>
-                            <div class="tag-field">Loyalty</div>
-                            <div class="tag-field">Team working</div>
-                            <div class="tag-field">Quick learner</div>
-                            <div class="tag-field">Problem solving</div>
-                        </div>
-                    </div>
-                    <div id="hobbits" class="block">
-                        <h2>HOBBIES</h2>
-                        <div class="block-content">
-                            <div class="roll-field">
-                                <div class="travel label">Cultural Travelling</div>
-                            </div>
-                            <div class="roll-field">
-                                <div class="game label">Game</div>
-                            </div>
-                            <div class="roll-field">
-                                <div class="soccer label">Soccer</div>
-                            </div>
-                            <div class="roll-field">
-                                <div class="music label">Music</div>
-                            </div>
-                            <div class="roll-field">
-                                <div class="gym label">Gym</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /Left Sidebar -->
-                <!-- Content -->
-                <div class="content" id="content-CV">
-                    <div id="employment" class="block">
-                        <h2>Employment</h2>
-                        <div class="block-content">
-                            <div class="text-field date">
-                                <div class="text-field-left">From May 2018 to Now</div>
-                                <div class="text-field-right">
-                                    <div class="title">Senior iOS Developer</div>
-                                    <div class="meta without-icon">
-                                        <a class="tag" href="https://www.hdwebsoft.com/">HDWEBSOFT Software Development Company</a>
+                                </a>
+                            </li>
+                            <li class="ios">
+                                <a class="fancybox popup_ios_landmark81">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/ios/landmark81/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="http://vinhomes.vn/">Landmark
+                                                81 App</a>
+                                        </div>
                                     </div>
-                                    <div class="text">
-                                        <p>
-                                            HDWebsoft provides high-quality software development outsourcing services to clients in Europe and America.
-                                        </p>
-                                        <p>
-                                            - Manage a team of developers, and work closely with the customer for the delivery of new application capabilities, maintenance, and support issues.
-                                        </p>
-                                        <p>
-                                            - Reviewed client requirements, wireframes, and designs for technical feasibility. Contributed to development of 5+ projects.
-                                        </p>
-                                        <p>
-                                            - Responsible for technical deliverables associated with application code development. Organizations performing group and training members.
-                                        </p>
+                                </a>
+                            </li>
+                            <li class="ios">
+                                <a class="fancybox popup_ios_landmarkplus">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/ios/landmarkplus/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="https://vinhomes.vn/vi/3-dieu-can-biet-truoc-khi-so-huu-the-villas-vinhomes-central-park/">Landmark
+                                                Plus App</a>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="text-field date">
-                                <div class="text-field-left">From Nov 2016 to May 2018</div>
-                                <div class="text-field-right">
-                                    <div class="title">Wordpress & IOS Developer</div>
-                                    <div class="meta without-icon">
-                                        <a class="tag" href="http://www.3forcom.com/">3FORCOM</a>
+                                </a>
+                            </li>
+                            <li class="ios">
+                                <a class="fancybox popup_ios_thepark">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/ios/thepark/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="http://thepark.vinhomes.vn/">Vinhomes
+                                                Central Park App</a>
+                                        </div>
                                     </div>
-                                    <div class="text">
-                                        <p>3FORCOM is an international IT partner.</p>
-                                        <p>
-                                            - Daily maintenance of code, debugging issues and solving clients’ problems.
-                                        </p>
-                                        <p>
-                                            - Resolved the UI design issues for multiple versions of iOS.
-                                        </p>
-                                        <p>
-                                            - Worked under project planning, and completed expected deliverables on time for every sprint.
-                                        </p>
+                                </a>
+                            </li>
+                            <li class="ios">
+                                <a class="fancybox popup_ios_thevillas">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/ios/thevillas/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="http://thevillas.vinhomes.vn/">The
+                                                Villas App</a>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-
-                            <div class="text-field date">
-                                <div class="text-field-left">From Sep 2014 to Oct 2016</div>
-                                <div class="text-field-right">
-                                    <div class="title">Web & IOS Developer</div>
-                                    <div class="meta without-icon">
-                                        <a class="tag" href="http://www.theagency.vn/">The AGENCY</a>
-                                    </div>
-                                    <div class="text">
-                                        <p>
-                                            The AGENCY is a digital creative agency based in HCMC, Vietnam.
-                                        </p>
-                                        <p>
-                                            - Involved in developing UI components / Outlets for the application screens.
-                                        </p>
-                                        <p>
-                                            - Worked closely with product managers and designers to define a rich iOS experience for the user.
-                                        </p>
-                                        <p>
-                                            - Created websites that allow the user to experience the web in the best and most appropriate way suited to the device they are using.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="text-field date">
-                                <div class="text-field-left">From Feb 2014 to Aug 2014</div>
-                                <div class="text-field-right">
-                                    <div class="title">ANDROID DEVELOPER INTERN</div>
-                                    <div class="meta without-icon">
-                                        <span class="tag">WIN WIN JSC</span>
-                                    </div>
-                                    <div class="text">
-                                        <p>
-                                            Learn build an application like app Foody for the Android platform.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="education" class="block last">
-                        <h2>Education</h2>
-                        <div class="block-content">
-                            <div class="text-field date last">
-                                <div class="text-field-left">From Oct 2010 to Mar 2015</div>
-                                <div class="text-field-right">
-                                    <div class="title">SOFTWARE ENGINEER</div>
-                                    <div class="meta without-icon">
-                                        <a class="tag" href="http://hcm.ptit.edu.vn/">Post and Telecommunication Institute Of Technology (PTIT)</a
-                        >
-                      </div>
-                      <div class="text">
-                        <p>
-                          Bachelor of Science (B.S.), Information Technology
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- /Content -->
-            <!-- Cleaner -->
-            <div class="clear"></div>
-            <!-- /Cleaner -->
-          </div>
-          <!-- /Content Inner -->
-        </div>
-        <!-- Portfolio -->
-        <div id="portfolio">
-          <!-- Content -->
-          <div class="content">
-            <h2>Portfolio</h2>
-            <!-- Portfolio Menu -->
-            <ul id="portfolio-menu">
-              <li>
-                <a target="_blank" href="" class="current" data-filter="*">All</a>
-                                        </li>
-                                        <li><a target="_blank" href="" data-filter=".ios">IOS</a></li>
-                                        <li>
-                                            <a target="_blank" href="" data-filter=".flutter">Flutter</a>
-                                        </li>
-                                        <li>
-                                            <a target="_blank" href="" data-filter=".reactnative">React Native</a>
-                                        </li>
-                                        <li>
-                                            <a target="_blank" href="" data-filter=".android">Android</a>
-                                        </li>
-                                        <li>
-                                            <a target="_blank" href="" data-filter=".wordpress">Wordpress</a>
-                                        </li>
-                                        <li>
-                                            <a target="_blank" href="" data-filter=".web">Web with BootStrap</a>
-                                        </li>
-                                        </ul>
-                                        <!-- /Portfolio Menu -->
-                                        <!-- Portfolio Container -->
-                                        <ul id="portfolio-container">
-                                            <!-- IOS-->
-                                            <li class="ios">
-                                                <a class="fancybox popup_ios_tripscout">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/ios/tripscout/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="https://tripscout.co/">
-                                                              TripScout - City Trip Planner
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="ios">
-                                                <a class="fancybox popup_ios_hhpoker">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/ios/hhpoker/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="http://hhpoker.net/">
-                                                              HHPoker - Poker games online
-                                                          </a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="ios">
-                                                <a class="fancybox popup_ios_widgit">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/ios/widgit/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="https://www.widgit.app/">
-                                                              Widgit - Fun Custom Widgets
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="ios">
-                                                <a class="fancybox popup_ios_connective">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/ios/connective/thumb.png" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="https://www.hdwebsoft.com/showcases/connective-for-creatives">
-                        Connective - For Creatives
-                      </a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="ios">
-                                                <a class="fancybox popup_ios_echarm">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/ios/echarm/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="https://itunes.apple.com/app/id1330857258">Excharm - Nails Marketplace</a
-                      >
-                    </div>
-                  </div>
-                </a>
-                                            </li>
-                                            <li class="ios">
-                                                <a class="fancybox popup_ios_petwidget">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/ios/petwidget/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="https://www.petwidget.com/petwidget-app/">Pet Widget - The Best Pet App</a
-                      >
-                    </div>
-                  </div>
-                </a>
-                                            </li>
-                                            <li class="ios">
-                                                <a class="fancybox popup_ios_breast">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/ios/breast/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="https://itunes.apple.com/app/id972011964">Breast Self Check App</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="ios">
-                                                <a class="fancybox popup_ios_quangdao">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/ios/quangdao/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="https://itunes.apple.com/us/app/qd-lightart/id930576188?mt=8">QD LightArt App</a
-                      >
-                    </div>
-                  </div>
-                </a>
-                                            </li>
-                                            <li class="ios">
-                                                <a class="fancybox popup_ios_landmark81">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/ios/landmark81/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="http://vinhomes.vn/">Landmark 81 App</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="ios">
-                                                <a class="fancybox popup_ios_landmarkplus">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/ios/landmarkplus/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="https://vinhomes.vn/vi/3-dieu-can-biet-truoc-khi-so-huu-the-villas-vinhomes-central-park/">Landmark Plus App</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="ios">
-                                                <a class="fancybox popup_ios_thepark">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/ios/thepark/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="http://thepark.vinhomes.vn/">Vinhomes Central Park App</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="ios">
-                                                <a class="fancybox popup_ios_thevillas">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/ios/thevillas/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="http://thevillas.vinhomes.vn/">The Villas App</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <!--
+                                </a>
+                            </li>
+                            <!--
                         <li class="ios">
                             <a class="fancybox popup_ios_vinhphuc">
                                 <div class="image-field">
@@ -653,599 +927,810 @@
                             </a>
                         </li>
 -->
-                                            <li class="ios">
-                                                <a class="fancybox popup_ios_himmapan">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/ios/himmapan/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="http://www.himmapan.ch/">Himmapan App</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="ios">
-                                                <a class="fancybox popup_ios_pacificelevator">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/ios/pacificelevator/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="http://www.pacificelevator.com/">Pacific Elevator App</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="ios">
-                                                <a class="fancybox popup_ios_soleildanang">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/ios/soleildanang/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="http://www.soleildanang.vn/">Soleil Da Nang App</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="ios">
-                                                <a class="fancybox popup_ios_madison">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/ios/madison/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="https://www.novaland.com.vn/madison">Madison App</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="ios">
-                                                <a class="fancybox popup_ios_lakeview">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/ios/lakeview/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="http://lakeview-city.vn/">LakeView City App</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <!--Flutter-->
-                                            <li class="flutter">
-                                                <a class="fancybox popup_flutter_sally">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/flutter/sally/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_flutter_sally">Sally App</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="flutter">
-                                                <a class="fancybox popup_flutter_lana">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/flutter/lana/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_flutter_lana">Lana Education</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
+                            <li class="ios">
+                                <a class="fancybox popup_ios_himmapan">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/ios/himmapan/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="http://www.himmapan.ch/">Himmapan
+                                                App</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="ios">
+                                <a class="fancybox popup_ios_pacificelevator">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/ios/pacificelevator/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="http://www.pacificelevator.com/">Pacific
+                                                Elevator App</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="ios">
+                                <a class="fancybox popup_ios_soleildanang">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/ios/soleildanang/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="http://www.soleildanang.vn/">Soleil
+                                                Da Nang App</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="ios">
+                                <a class="fancybox popup_ios_madison">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/ios/madison/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="https://www.novaland.com.vn/madison">Madison
+                                                App</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="ios">
+                                <a class="fancybox popup_ios_lakeview">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/ios/lakeview/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="http://lakeview-city.vn/">LakeView
+                                                City App</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!--Flutter-->
+                            <li class="flutter">
+                                <a class="fancybox popup_flutter_sally">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/flutter/sally/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_flutter_sally">Sally
+                                                App</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="flutter">
+                                <a class="fancybox popup_flutter_lana">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/flutter/lana/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_flutter_lana">Lana
+                                                Education</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
 
-                                            <!--ReactNative-->
-                                            <li class="reactnative">
-                                                <a class="fancybox popup_reactnative_impact360">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/reactnative/impact360/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_reactnative_impact360">Impact 360</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="reactnative">
-                                                <a class="fancybox popup_reactnative_sociallens">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/reactnative/sociallens/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="https://www.lensengage.com/">Lens Engage</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <!--Android-->
-                                            <li class="android">
-                                                <a class="fancybox popup_android_pregnant">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/android/pregnant/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="https://play.google.com/store/apps/details?id=vn.theagency.app.getpregnant">Die Wunschkind App</a
-                      >
-                    </div>
-                  </div>
-                </a>
-                                            </li>
-                                            <li class="android">
-                                                <a class="fancybox popup_android_allnews">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/android/allnews/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.thong.allnewstintonghop">All News-Tin Tong Hop</a
-                      >
-                    </div>
-                  </div>
-                </a>
-                                            </li>
-                                            <li class="android">
-                                                <a class="popup_android_vnexpress">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/android/vnexpress/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="popup_android_vnexpress">Tin VnExpress 24h</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="android">
-                                                <a class="fancybox popup_android_dantri">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/android/dantri/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_android_dantri">Tin Tuc Dan Tri 24h</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="android">
-                                                <a class="fancybox popup_android_zing24h">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/android/zing24h/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.thong.docbaohay">Tin Zing 24h</a
-                      >
-                    </div>
-                  </div>
-                </a>
-                                            </li>
-                                            <li class="android">
-                                                <a class="fancybox popup_android_genk">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/android/genk/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.thong.tingenk">Tin Genk</a
-                      >
-                    </div>
-                  </div>
-                </a>
-                                            </li>
-                                            <li class="android">
-                                                <a class="fancybox popup_android_kenh14">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/android/kenh14/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.thong.tinkenh14">Tin Kenh14</a
-                      >
-                    </div>
-                  </div>
-                </a>
-                                            </li>
-                                            <!--                        Web with BootStrap-->
-                                            <li class="web">
-                                                <a class="fancybox popup_web_moneyfun">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/web/moneyfun/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_web_moneyfun">Moneyfun</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="web">
-                                                <a class="fancybox popup_web_himmapan">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/web/himmapan/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="https://www.himmapan.ch/de/home/">Himmapan</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="web">
-                                                <a class="fancybox popup_web_karma">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/web/karma/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_web_karma">Karma</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="web">
-                                                <a class="fancybox popup_web_zupviec">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/web/zupviec/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_web_zupviec">ZupViec</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="web">
-                                                <a class="fancybox popup_web_theagency">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/web/theagency/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="http://theagency.vn/">The AGENCY</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="web">
-                                                <a class="fancybox popup_web_alma">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/web/alma/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_web_alma">Alma Newsletter</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <!--                        Web with Wordpress-->
-                                            <li class="wordpress">
-                                                <a class="fancybox popup_wp_pocari">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/wordpress/pocari/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="https://www.pocarisweat.com.vn/">Pocari Sweat</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="wordpress">
-                                                <a class="fancybox popup_wp_bigc">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/wordpress/bigc/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="https://www.bigc.vn/">Big C</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="wordpress">
-                                                <a class="fancybox popup_wp_hijuice">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/wordpress/hijuice/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_wp_hijuice">Hijuice</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="wordpress">
-                                                <a class="fancybox popup_wp_hodo">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/wordpress/hodo/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_wp_hodo">Ho Do Viet Nam</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="wordpress">
-                                                <a class="fancybox popup_wp_miumilkshop">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/wordpress/miumilkshop/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_wp_miumilkshop">Miumilkshop</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="wordpress">
-                                                <a class="fancybox popup_wp_360atc">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/wordpress/360atc/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_wp_360atc">360atc</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="wordpress">
-                                                <a class="fancybox popup_wp_thaodang">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/wordpress/thaodang/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_wp_thaodang">Thao Dang</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="wordpress">
-                                                <a class="fancybox popup_wp_hungmy">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/wordpress/hungmy/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="http://hungmy.com.vn/">Hung My Company</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="wordpress">
-                                                <a class="fancybox popup_wp_wisdomlandpreschool">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/wordpress/wisdomlandpreschool/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_wp_wisdomlandpreschool">Wisdomland Preschool</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="wordpress">
-                                                <a class="fancybox popup_wp_pearlsensespa">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/wordpress/pearlsensespa/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_wp_pearlsensespa">Pearlsense Spa</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="wordpress">
-                                                <a class="fancybox popup_wp_nhahanglongbeach">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/wordpress/nhahanglongbeach/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_wp_nhahanglongbeach">Long Beach Restaurant</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="wordpress">
-                                                <a class="fancybox popup_wp_karaokelongbeach">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/wordpress/karaokelongbeach/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_wp_karaokelongbeach">Long Beach Karaoke</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="wordpress">
-                                                <a class="fancybox popup_wp_madison">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/wordpress/madison/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_wp_madison">Madison Web</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="wordpress">
-                                                <a class="fancybox popup_wp_soleildanang">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/wordpress/soleildanang/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a target="_blank" href="http://soleildanang.vn/">Wyndham Soleil Đa Nang</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="wordpress">
-                                                <a class="fancybox popup_wp_inphotobook">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/wordpress/inphotobook/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_wp_inphotobook">In Photobook</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="wordpress">
-                                                <a class="fancybox popup_wp_vietnamtravel">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/wordpress/vietnamtravel/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_wp_vietnamtravel">VIET NAM ADVENTURE TOURS</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="wordpress">
-                                                <a class="fancybox popup_wp_lacasa">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/wordpress/lacasa/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_wp_lacasa">LACASA Apartment</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="wordpress">
-                                                <a class="fancybox popup_wp_kiennhadat">
-                                                    <div class="image-field">
-                                                        <div class="image">
-                                                            <img src="images/project/wordpress/kiennhadat/thumb.jpg" height="150" width="200" /><span></span>
-                                                        </div>
-                                                        <div class="title">
-                                                            <a class="fancybox popup_wp_kiennhadat">Kien Real Estate</a>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                        <!-- /Portfolio Container -->
+                            <!--ReactNative-->
+                            <li class="reactnative">
+                                <a class="fancybox popup_reactnative_impact360">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/reactnative/impact360/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
                                         </div>
-                                        <!-- /Content -->
-                                        <!-- Cleaner -->
-                                        <div class="clear"></div>
-                                        <!-- /Cleaner -->
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_reactnative_impact360">Impact
+                                                360</a>
                                         </div>
-                                        <!-- /Portfolio -->
-                                        <!-- Contacts -->
-                                        <div id="contacts">
-                                            <div id="contact-map-block" class="block">
-                                                <h2>Contacts</h2>
-                                                <div id="map">
-                                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.7534073878555!2d106.61658311480117!3d10.830173692285031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752bd1c11e7b7b%3A0xfb13d9ff26e54a91!2sChung%20c%C6%B0%20PROSPER%20PLAZA!5e0!3m2!1svi!2s!4v1593330638322!5m2!1svi!2s"
-                                                        frameborder="0" style="border: 0;" allowfullscreen></iframe>
-                                                </div>
-                                            </div>
-                                            <!-- Content Inner -->
-                                            <div class="content-inner">
-                                                <div class="left-sidebar">
-                                                    <div id="contact-information" class="block">
-                                                        <h2>Contact Information</h2>
-                                                        <div class="block-content">
-                                                            <div class="contact-field address">
-                                                                <div id="contact-name">
-                                                                    <a href="https://www.linkedin.com/in/thongnt" target="_blank">Nguyen Thuong Thong</a>
-                                                                </div>
-                                                                <div id="contact-address">
-                                                                    <a href="https://goo.gl/maps/6zyW59PPTDcxwhD3A" target="_blank">Prosper Plaza Apartment, 22/14 Phan Van Hon, District 12, Ho Chi Minh City, Viet Nam</a
-                      >
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="reactnative">
+                                <a
+                                    class="fancybox popup_reactnative_sociallens">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/reactnative/sociallens/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="https://www.lensengage.com/">Lens
+                                                Engage</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!--Android-->
+                            <li class="android">
+                                <a class="fancybox popup_android_pregnant">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/android/pregnant/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="https://play.google.com/store/apps/details?id=vn.theagency.app.getpregnant">Die
+                                                Wunschkind App</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="android">
+                                <a class="fancybox popup_android_allnews">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/android/allnews/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="https://play.google.com/store/apps/details?id=com.thong.allnewstintonghop">All
+                                                News-Tin Tong Hop</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="android">
+                                <a class="popup_android_vnexpress">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/android/vnexpress/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="popup_android_vnexpress">Tin
+                                                VnExpress 24h</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="android">
+                                <a class="fancybox popup_android_dantri">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/android/dantri/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_android_dantri">Tin
+                                                Tuc Dan Tri 24h</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="android">
+                                <a class="fancybox popup_android_zing24h">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/android/zing24h/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="https://play.google.com/store/apps/details?id=com.thong.docbaohay">Tin
+                                                Zing 24h</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="android">
+                                <a class="fancybox popup_android_genk">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/android/genk/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="https://play.google.com/store/apps/details?id=com.thong.tingenk">Tin
+                                                Genk</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="android">
+                                <a class="fancybox popup_android_kenh14">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/android/kenh14/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="https://play.google.com/store/apps/details?id=com.thong.tinkenh14">Tin
+                                                Kenh14</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!--                        Web with BootStrap-->
+                            <li class="web">
+                                <a class="fancybox popup_web_moneyfun">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/web/moneyfun/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_web_moneyfun">Moneyfun</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="web">
+                                <a class="fancybox popup_web_himmapan">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/web/himmapan/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="https://www.himmapan.ch/de/home/">Himmapan</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="web">
+                                <a class="fancybox popup_web_karma">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/web/karma/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_web_karma">Karma</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="web">
+                                <a class="fancybox popup_web_zupviec">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/web/zupviec/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_web_zupviec">ZupViec</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="web">
+                                <a class="fancybox popup_web_theagency">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/web/theagency/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="http://theagency.vn/">The
+                                                AGENCY</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="web">
+                                <a class="fancybox popup_web_alma">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/web/alma/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_web_alma">Alma
+                                                Newsletter</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!--                        Web with Wordpress-->
+                            <li class="wordpress">
+                                <a class="fancybox popup_wp_pocari">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/wordpress/pocari/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="https://www.pocarisweat.com.vn/">Pocari
+                                                Sweat</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="wordpress">
+                                <a class="fancybox popup_wp_bigc">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/wordpress/bigc/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="https://www.bigc.vn/">Big
+                                                C</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="wordpress">
+                                <a class="fancybox popup_wp_hijuice">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/wordpress/hijuice/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_wp_hijuice">Hijuice</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="wordpress">
+                                <a class="fancybox popup_wp_hodo">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/wordpress/hodo/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a class="fancybox popup_wp_hodo">Ho
+                                                Do Viet Nam</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="wordpress">
+                                <a class="fancybox popup_wp_miumilkshop">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/wordpress/miumilkshop/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_wp_miumilkshop">Miumilkshop</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="wordpress">
+                                <a class="fancybox popup_wp_360atc">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/wordpress/360atc/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_wp_360atc">360atc</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="wordpress">
+                                <a class="fancybox popup_wp_thaodang">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/wordpress/thaodang/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_wp_thaodang">Thao
+                                                Dang</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="wordpress">
+                                <a class="fancybox popup_wp_hungmy">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/wordpress/hungmy/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a>Hung My Company</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="wordpress">
+                                <a
+                                    class="fancybox popup_wp_wisdomlandpreschool">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/wordpress/wisdomlandpreschool/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_wp_wisdomlandpreschool">Wisdomland
+                                                Preschool</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="wordpress">
+                                <a class="fancybox popup_wp_pearlsensespa">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/wordpress/pearlsensespa/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_wp_pearlsensespa">Pearlsense
+                                                Spa</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="wordpress">
+                                <a class="fancybox popup_wp_nhahanglongbeach">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/wordpress/nhahanglongbeach/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_wp_nhahanglongbeach">Long
+                                                Beach Restaurant</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="wordpress">
+                                <a class="fancybox popup_wp_karaokelongbeach">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/wordpress/karaokelongbeach/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_wp_karaokelongbeach">Long
+                                                Beach Karaoke</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="wordpress">
+                                <a class="fancybox popup_wp_madison">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/wordpress/madison/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_wp_madison">Madison
+                                                Web</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="wordpress">
+                                <a class="fancybox popup_wp_soleildanang">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/wordpress/soleildanang/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a target="_blank"
+                                                href="http://soleildanang.vn/">Wyndham
+                                                Soleil Đa Nang</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="wordpress">
+                                <a class="fancybox popup_wp_inphotobook">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/wordpress/inphotobook/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_wp_inphotobook">In
+                                                Photobook</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="wordpress">
+                                <a class="fancybox popup_wp_vietnamtravel">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/wordpress/vietnamtravel/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_wp_vietnamtravel">VIET
+                                                NAM ADVENTURE TOURS</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="wordpress">
+                                <a class="fancybox popup_wp_lacasa">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/wordpress/lacasa/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_wp_lacasa">LACASA
+                                                Apartment</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="wordpress">
+                                <a class="fancybox popup_wp_kiennhadat">
+                                    <div class="image-field">
+                                        <div class="image">
+                                            <img
+                                                src="images/project/wordpress/kiennhadat/thumb.jpg"
+                                                height="150"
+                                                width="200" /><span></span>
+                                        </div>
+                                        <div class="title">
+                                            <a
+                                                class="fancybox popup_wp_kiennhadat">Kien
+                                                Real Estate</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- /Portfolio Container -->
                     </div>
-                    <!-- From this field take address Google map-->
-                  </div>
-                  <div class="contact-field phone">
-                    <div id="contact-phone">
-                      <a target="_blank" href="tel:0377197639">Phone: (+84) 377 197 639</a>
-                                                                </div>
-                                                                <div id="contact-skype">
-                                                                    <a target="_blank" href="skype:boytpcm123?chat">Skype: boytpcm123</a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="contact-field mail">
-                                                                <div id="contact-mail">
-                                                                    <a target="_blank" href="mailto:nguyenthuongthongcm@gmail.com">nguyenthuongthongcm@gmail.com</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="content">
-                                                    <div id="contact-form" class="block">
-                                                        <a target="_blank" href="mailto:nguyenthuongthongcm@gmail.com"><img src="images/hireme.jpg" width="100%" alt="hire-me" /></a>
-                                                    </div>
-                                                </div>
-                                                <!-- Cleaner -->
-                                                <div class="clear"></div>
-                                                <!-- /Cleaner -->
-                                            </div>
-                                            <!-- /Content Inner -->
+                    <!-- /Content -->
+                    <!-- Cleaner -->
+                    <div class="clear"></div>
+                    <!-- /Cleaner -->
+                </div>
+                <!-- /Portfolio -->
+                <!-- Contacts -->
+                <div id="contacts">
+                    <div id="contact-map-block" class="block">
+                        <h2>Contacts</h2>
+                        <div id="map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.7534073878555!2d106.61658311480117!3d10.830173692285031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752bd1c11e7b7b%3A0xfb13d9ff26e54a91!2sChung%20c%C6%B0%20PROSPER%20PLAZA!5e0!3m2!1svi!2s!4v1593330638322!5m2!1svi!2s"
+                                frameborder="0" style="border: 0;"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <!-- Content Inner -->
+                    <div class="content-inner">
+                        <div class="left-sidebar">
+                            <div id="contact-information" class="block">
+                                <h2>Contact Information</h2>
+                                <div class="block-content">
+                                    <div class="contact-field address">
+                                        <div id="contact-name">
+                                            <a
+                                                href="https://www.linkedin.com/in/thongnt"
+                                                target="_blank">Nguyen Thuong
+                                                Thong</a>
                                         </div>
-                                        <!-- /Contacts -->
-                                        <!-- Social Button -->
-                                        <div id="social">
-                                            <ul class="pos-button">
-                                                <li class="first">
-                                                    <a target="_blank" href="https://www.facebook.com/nguyenthuongthong" class="facebook" title="Facebook"></a>
-                                                </li>
-                                                <li class="last">
-                                                    <a target="_blank" href="https://www.linkedin.com/in/thongnt" class="linkedin" title="Linkedin"></a>
-                                                </li>
-                                            </ul>
+                                        <div id="contact-address">
+                                            <a
+                                                href="https://maps.app.goo.gl/MXRSGW2XCJBnU96Q9"
+                                                target="_blank">District 12, Ho
+                                                Chi Minh City, Viet Nam</a>
                                         </div>
-                                        <!-- /Social Button -->
-                                        <!-- Action Button -->
-                                        <div id="action">
-                                            <ul class="pos-button">
-                                                <!--
+                                        <!-- From this field take address Google map-->
+                                    </div>
+                                    <div class="contact-field phone">
+                                        <div id="contact-phone">
+                                            <a target="_blank"
+                                                href="tel:0377197639">Phone:
+                                                (+84) 377 197 639</a>
+                                        </div>
+                                        <div id="contact-skype">
+                                            <a target="_blank"
+                                                href="skype:boytpcm123?chat">Skype:
+                                                boytpcm123</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-field mail">
+                                        <div id="contact-mail">
+                                            <a target="_blank"
+                                                href="mailto:nguyenthuongthongcm@gmail.com">nguyenthuongthongcm@gmail.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div id="contact-form" class="block">
+                                <a target="_blank"
+                                    href="mailto:nguyenthuongthongcm@gmail.com"><img
+                                        src="images/hireme.jpg" width="100%"
+                                        alt="hire-me" /></a>
+                            </div>
+                        </div>
+                        <!-- Cleaner -->
+                        <div class="clear"></div>
+                        <!-- /Cleaner -->
+                    </div>
+                    <!-- /Content Inner -->
+                </div>
+                <!-- /Contacts -->
+                <!-- Social Button -->
+                <div id="social">
+                    <ul class="pos-button">
+                        <li class="first">
+                            <a target="_blank"
+                                href="https://www.facebook.com/nguyenthuongthong"
+                                class="facebook" title="Facebook"></a>
+                        </li>
+                        <li class="last">
+                            <a target="_blank"
+                                href="https://www.linkedin.com/in/thongnt"
+                                class="linkedin" title="Linkedin"></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /Social Button -->
+                <!-- Action Button -->
+                <div id="action">
+                    <ul class="pos-button">
+                        <!--
                     <li class="first">
                         <a target="_blank" href="https://goo.gl/VCQYKI" target="_blank" class="print" title="Print"></a>
                     </li>
 -->
 
-                                                <li>
-                                                    <a href="https://goo.gl/ThlknI" target="_blank" class="share" title="Share"></a>
-                                                </li>
-                                                <li class="last">
-                                                    <a href="/resume/Nguyen-Thuong-Thong(Senior-IOS).pdf" target="_blank" class="save" title="Save"></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <!-- /Action Button -->
-                                        </div>
-                                        <!-- /Container -->
-                                        <!-- Footer -->
-                                        <div id="footer">
-                                            <div id="copyright">© Copyright 2018 Thong personal portfolio</div>
-                                        </div>
-                                        <!-- /Footer -->
-                                        </div>
-                                        <!-- /Wrapper -->
-                                        <script>
+                        <li>
+                            <a
+                                href="/reference/Reference-for-Thong-Nguyen-Thuong-(Senior-iOS-Developer).pdf"
+                                target="_blank" class="share" title="Share"></a>
+                        </li>
+                        <li class="last">
+                            <a
+                                href="/resume/Nguyen-Thuong-Thong(Senior-IOS).pdf"
+                                target="_blank" class="save" title="Save"></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /Action Button -->
+            </div>
+            <!-- /Container -->
+            <!-- Footer -->
+            <div id="footer">
+                <div id="copyright">© Copyright 2018 Thong personal
+                    portfolio</div>
+            </div>
+            <!-- /Footer -->
+        </div>
+        <!-- /Wrapper -->
+        <script>
                                             (function(i, s, o, g, r, a, m) {
                                                 i["GoogleAnalyticsObject"] = r;
                                                 (i[r] =
@@ -1262,6 +1747,6 @@
                                             ga("create", "UA-82626642-1", "auto");
                                             ga("send", "pageview");
                                         </script>
-</body>
+    </body>
 
 </html>

@@ -1,6 +1,31 @@
 $(document).ready(function() {
     //IOS
 
+    //JobAdder
+    $(".popup_ios_jobadder").click(function() {
+        $.fancybox.open(
+            [
+                {
+                    href: "../images/project/ios/jobadder/1.jpg",
+                },
+                {
+                    href: "../images/project/ios/jobadder/2.jpg",
+                },
+                {  
+                    href: "https://youtu.be/eIWbw06crAA",
+                }
+            ], {
+                nextEffect: "none",
+                prevEffect: "none",
+                padding: 0,
+                helpers: {
+                    media: {},
+                },
+            }
+        );
+        return false;
+    });
+
     //TripScout
     $(".popup_ios_tripscout").click(function() {
         $.fancybox.open(
